@@ -5,11 +5,16 @@
 }
 
 #conteudo .header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     display: flex;
+    position: sticky;
     flex-direction: row;
     width: 100%;
     height: auto;
-    background-color: rgb(121, 20, 20);
+    background-color: #791414;
+    box-shadow: 0 0 30px 0 black ;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -17,7 +22,21 @@
 #conteudo .header a {
     text-decoration:none ;
     color: white;
+    padding: 15px 15px;
+    transition: 0.7s;
+    
+   
 }
+
+
+#conteudo .header .text_header a:hover{
+    background-color: white; 
+    color: #791414;
+    border-radius: 15px;  
+    border: solid 5px rgb(255, 102, 0);  
+}
+
+
 
 #conteudo .header .header_img img{
     height: 15vh;

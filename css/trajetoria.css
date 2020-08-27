@@ -1,12 +1,9 @@
 
 
-
-
 .content_trajetoria{
     display: flex;
     flex-direction:row;
 }
-
 
 .carousel_trajetoria img{
     max-width: 50vw;

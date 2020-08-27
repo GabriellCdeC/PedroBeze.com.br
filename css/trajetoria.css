@@ -1,0 +1,18 @@
+
+
+.trajetoria{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.content_trajetoria{
+    display: flex;
+    flex-direction:row;
+}
+
+
+.carousel_trajetoria{
+
+}
+

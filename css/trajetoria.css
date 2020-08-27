@@ -1,10 +1,6 @@
 
 
-.trajetoria{
-    display: flex;
-    flex-direction:column;
 
-}
 
 .content_trajetoria{
     display: flex;
@@ -12,7 +8,12 @@
 }
 
 
-.carousel_trajetoria{
+.carousel_trajetoria img{
+    max-width: 50vw;
+}
 
+.text_trajetoria{
+    max-width: 50vw;
+    border:  solid 5px black;
 }
 

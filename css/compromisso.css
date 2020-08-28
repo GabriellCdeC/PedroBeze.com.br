@@ -2,6 +2,7 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
+    padding-top: 3vh;
 }
 
 
@@ -37,3 +38,11 @@
     text-align: center;
 }
 
+.compromisso .content_compromisso .text_compromisso h3 .fa-file-pdf-o{
+    color: orange;
+    transition: 0.4s;
+}
+
+.compromisso .content_compromisso .text_compromisso h3 .fa-file-pdf-o:hover{
+    font-size: large;
+}

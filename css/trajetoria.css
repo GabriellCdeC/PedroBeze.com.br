@@ -1,5 +1,7 @@
 
-
+.trajetoria{
+    padding-top: 3vh;
+}
 .content_trajetoria{
     display: flex;
     flex-direction:row;

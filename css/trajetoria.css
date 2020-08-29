@@ -5,8 +5,7 @@
 .content_trajetoria{
     display: flex;
     flex-direction:row;
-    height: 65vh;
-
+    height: auto;
     border: solid 5px orangered;
 }
 
@@ -22,7 +21,7 @@
 }
 
 .carousel_div{
-    border: solid 5px rgb(0, 0, 0);
+border: solid 5px rgb(0, 0, 0);
   height: auto;
   width: 100%;
 }
@@ -35,14 +34,14 @@
 }
 
 #myCarousel{
-  position: absolute;
+  position: relative;
   border: solid 5px red;
   max-height: 100vh;  
   
  }
  
  #fixa{
-  position: absolute;
+  position: relative;
   width: 20%;
   height: 400px;
   background: black;

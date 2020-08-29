@@ -27,7 +27,7 @@
 
 .carousel_div .carousel-inner .item img{
     width: 50vw;
-    min-height: 65vh;
+    height: 65vh;
     align-items: center;
 }
 

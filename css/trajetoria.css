@@ -34,6 +34,7 @@
 .carousel-indicators{
     background: black
 }
+
 #myCarousel{
     display: flex;
     position: relative;

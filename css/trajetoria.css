@@ -5,6 +5,9 @@
 .content_trajetoria{
     display: flex;
     flex-direction:row;
+    height: 65vh;
+
+    border: solid 5px orangered;
 }
 
 .carousel_trajetoria img{
@@ -12,7 +15,7 @@
 }
 
 .text_trajetoria{
-  
+    height: auto; 
     font-size: 1.5em;
     max-width: 50vw;
     border:  solid 5px black;
@@ -20,7 +23,7 @@
 
 .carousel_div{
     border: solid 5px rgb(0, 0, 0);
-  
+  height: auto;
   width: 100%;
 }
 

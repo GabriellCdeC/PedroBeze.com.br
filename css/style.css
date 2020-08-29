@@ -17,6 +17,7 @@
     box-shadow: 0 0 30px 0 black ;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 100;
 }
 
 #conteudo .header a {

@@ -21,7 +21,7 @@
 }
 
 #conteudo .header a {
-    text-decoration:none ;
+    text-decoration:none;
     color: white;
     padding: 15px 15px;
     transition: 0.7s;  
@@ -36,6 +36,7 @@
 
 #conteudo .header .header_img img{
     height: 15vh;
+    transition: 0.7s;
 }
 
 .title{

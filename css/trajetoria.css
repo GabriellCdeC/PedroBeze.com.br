@@ -73,6 +73,7 @@
      border: 4px solid orangered;
      text-align: center;
      font-size: 2em;
+     cursor: pointer;
      z-index: 2;
  }
 

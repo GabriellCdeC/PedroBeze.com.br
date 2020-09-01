@@ -65,7 +65,7 @@
      position: absolute;
      border-radius: 50%;
      background: orangered;
-     padding: 2px;
+     padding: 0 2px 0 2px;
      color: white;
      font-weight: bold;
      line-height: 40px;

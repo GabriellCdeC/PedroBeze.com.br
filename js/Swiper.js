@@ -33,25 +33,4 @@ swiperPrev.addEventListener('click', function (event) {
     }
 })
 
-/*
-if ((".swiper-container").hasClass("team-member-slider")) {
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
-        allowTouchMove: true,
-        loop: true,
-        centeredSlides: true,
-        slideToclickedslide: true,
-        effect: "coverflow",
-        grabcursor: true,
-        autoplay: false,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        coverflow: {
-            rotate: 0.
-        }
-    })
-}
-*/
 

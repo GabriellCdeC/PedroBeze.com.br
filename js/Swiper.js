@@ -5,14 +5,18 @@ const swiperPrev = document.querySelector(".swiper-button-prev")
 swiperNext.addEventListener('click', function (event) {
     const getDivImages = document.querySelectorAll("div.item")
 
-    for (const itemImg of getDivImages) {
+    for (const [index, itemImg] of getDivImages.entries()) {
 
-        if (itemImg.classList.contains('active')) {
-            itemImg.classList.remove('active')
-            itemImg.nextElementSibling.classList.add('active')
-            return true
+        if (index < getDivImages.length - 1) {
+            if (itemImg.classList.contains('active')) {
+
+                itemImg.classList.remove('active')
+                itemImg.nextElementSibling.classList.add('active')
+                return true
+            }
         }
-    }   
+
+    }
 
 
 })
@@ -20,16 +24,16 @@ swiperNext.addEventListener('click', function (event) {
 swiperPrev.addEventListener('click', function (event) {
     const getDivImages = document.querySelectorAll("div.item")
 
-    console.log(getDivImages)
+    for (const [index, itemImg] of getDivImages.entries()) {
+        if (index > 0) {
+            if (itemImg.classList.contains('active')) {
 
-
-    for (const itemImg of getDivImages) {
-
-        if (itemImg.classList.contains('active')) {
-            itemImg.classList.remove('active')
-            itemImg.previousElementSibling.classList.add('active')
-            return true
+                itemImg.classList.remove('active')
+                itemImg.previousElementSibling.classList.add('active')
+                return true
+            } 
         }
+
     }
 })
 

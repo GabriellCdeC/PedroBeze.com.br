@@ -1,0 +1,60 @@
+
+.contribua{
+    display: flex;
+    flex-direction:column ;
+    padding-top: 3vh;
+}
+
+
+.contribua .grid_contribua {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    width: auto;
+    border: solid blue;
+}
+
+.text_motivo{
+    background: rgb(145, 3, 3)
+}
+
+.vaquinha{
+    background-color: #46b968;
+    padding: 20px;
+}
+
+.vaquinha img{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_button_vaquinha{
+    height: 100%;
+    width: 100%;
+    border: solid 50px black;
+}
+
+
+#button_vaquinha{
+    border: 5px solid red;
+    position: absolute;
+    font-size: 1.5em;
+    text-decoration: none;
+    background:linear-gradient(to bottom right, #791414, #791414, #ff6600);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    z-index: 1
+}
+
+
+
+
+
+
+.mande-propostas{
+    background: orangered;
+}

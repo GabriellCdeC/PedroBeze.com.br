@@ -2,6 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+   
 }
 
 #conteudo .header {
@@ -17,10 +18,11 @@
     box-shadow: 0 0 30px 0 black ;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 100;
 }
 
 #conteudo .header a {
-    text-decoration:none ;
+    text-decoration:none;
     color: white;
     padding: 15px 15px;
     transition: 0.7s;  
@@ -35,6 +37,7 @@
 
 #conteudo .header .header_img img{
     height: 15vh;
+    transition: 0.7s;
 }
 
 .title{

@@ -1,10 +1,10 @@
-
 .trajetoria{
     padding-top: 3vh;
 }
 .content_trajetoria{
     display: flex;
     flex-direction:row;
+    height: auto;
 }
 
 .carousel_trajetoria img{
@@ -12,9 +12,69 @@
 }
 
 .text_trajetoria{
-  
+    height: auto; 
     font-size: 1.5em;
     max-width: 50vw;
     border:  solid 5px black;
 }
+
+.carousel_div{
+  display: flex;
+  border: solid 5px purple;
+  height: auto;
+  width: 100%;
+}
+
+.carousel_div .carousel-inner .item img{
+    width: 50vw;
+    height: 65vh;
+    align-items: center;
+    z-index: 1;
+}
+
+.carousel-indicators{
+    qdisplay: none;
+    background: black
+}
+
+#myCarousel{
+    display: flex;
+    position: relative;
+    align-items: center;  
+ }
+ 
+ #fixa{
+    position: relative;
+    width: 20%;
+    height: 400px;
+    background: black;
+ }
+
+ .swiper-button-next, .swiper-button-prev{
+     background-image: none;
+ }
+
+ .swiper-button-next{
+     right: 10px; 
+ }
+
+ .swiper-button-prev{
+     left: 10px 
+ }
+
+ .slider-arrow{
+     position: absolute;
+     border-radius: 50%;
+     background: orangered;
+     padding: 0 2px 0 2px;
+     color: white;
+     font-weight: bold;
+     line-height: 40px;
+     transition: 1s;
+     border: 4px solid orangered;
+     text-align: center;
+     font-size: 2em;
+     cursor: pointer;
+ }
+
 

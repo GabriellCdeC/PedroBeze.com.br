@@ -1,0 +1,12 @@
+
+.aritgo_opiniao{
+    display: flex;
+    flex-direction:column ;
+    border-radius: 25px;
+    margin: 0 1.5vw 0 1.5vw;
+    background: azure;
+}
+
+.aritgo_opiniao:hover{
+    box-shadow: 0 0 10px black;
+}

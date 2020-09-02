@@ -2,11 +2,17 @@
 .contribua{
     display: flex;
     flex-direction:column ;
-    padding-top: 3vh;
+    border-radius: 25px;
+    margin: 0 1.5vw 0 1.5vw;
+    background: azure;
 }
 
+.contribua:hover{
+    box-shadow: 0 0 10px black;
+}
 
 .contribua .grid_contribua {
+    padding-top: 3vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -40,7 +46,7 @@
     -moz-transform:translate3d(-50%, -50%, 0);
     transform:translate3d(-50%, -50%, 0);
     /*Propiedades do botão(Cores, tamanha, bordar etc*/
-    background: red;
+    background: linear-gradient(to bottom right, #791414, #791414, #ff6600);
     padding: 10px;
     border-radius: 15%;
     color: white;

@@ -2,24 +2,32 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
-    padding-top: 3vh;
+    border-radius: 25px;
+    margin: 0 1.5vw 0 1.5vw;
+    background: azure;
 }
 
+.compromisso:hover{
+    box-shadow: 0 0 10px black;
+}
 
 .compromisso .grid_compromisso {
     display: grid;
+    padding-top: 3vh;
     grid-template-columns: 1fr 1fr;
-    height: auto;
+    height:auto;
     width: auto;
 }
 
 .compromisso .content_compromisso{
     padding: 20px;
-    margin-top: 20px;
     display: flex;
-    
-   
+    height:50vh;
+    width: auto;
+    border: salmon solid 5px;
 }
+   
+
 
 .compromisso .content_compromisso .img_compromisso{
     margin-left: 0;
@@ -35,6 +43,9 @@
 
 .compromisso .content_compromisso .text_compromisso{
     text-align: justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
 
 .compromisso .content_compromisso .text_compromisso h3,
@@ -50,7 +61,7 @@
 }
 
 .compromisso .content_compromisso .text_compromisso h3 .fa-file-pdf-o:hover{
-    afont-size: 0.8em;
+    font-size: 0.8em;
     color: white;
     background: linear-gradient(to bottom right, #791414, #791414, #ff6600);
     border-radius: 10px;

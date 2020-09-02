@@ -4,6 +4,9 @@
     padding: 0;
    
 }
+body{
+    background: rgb(224, 224, 224);
+}
 
 #conteudo .header {
     position: -webkit-sticky; /* Safari */

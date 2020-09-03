@@ -29,6 +29,7 @@ body{
     color: white;
     padding: 15px 15px;
     transition: 0.7s;  
+    font-size: 1.25em;
 }
 
 #conteudo .header .text_header a:hover{

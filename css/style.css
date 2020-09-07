@@ -62,9 +62,7 @@ body{
 /*Mobile Responsive*/
 @media(max-width: 1100px){
 
-    #conteudo .header{
-        position: relative;
-    }
+
 
     #conteudo .header .text_header{
         display: none;

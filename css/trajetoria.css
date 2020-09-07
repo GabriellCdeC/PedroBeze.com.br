@@ -122,7 +122,12 @@
     .content_trajetoria{
         flex-direction: column;
     }
-
+    .carousel_div{
+        height: auto;
+        width: 88%;
+      
+      }
+      
     .carousel_trajetoria img{
         max-width: 100vw;
     }

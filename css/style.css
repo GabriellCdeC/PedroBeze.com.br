@@ -62,15 +62,8 @@ body{
 /*Mobile Responsive*/
 @media(max-width: 1100px){
 
-
-
     #conteudo .header .text_header{
         display: none;
-    }
-
-    #conteudo .header .header_img img{
-        height: 5vh;
-        transition: 0.7s;
     }
 
     .title{

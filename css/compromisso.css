@@ -67,3 +67,14 @@
     border-radius: 10px;
     box-shadow: 0 0 5px black;
 }
+
+@media(max-width: 1100px){
+    .compromisso .grid_compromisso {
+        display: flex;
+        padding-top: 3vh;
+        flex-direction: column;
+     
+        height:auto;
+        width: auto;
+    }
+}

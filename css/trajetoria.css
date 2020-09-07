@@ -117,7 +117,7 @@
     transition: 0.5s; 
 }
 
-
+/*Mobile Responsive*/
 @media(max-width: 1100px){
     .content_trajetoria{
         flex-direction: column;

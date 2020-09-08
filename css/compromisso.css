@@ -73,9 +73,20 @@
     .compromisso .grid_compromisso {
         display: flex;
         padding-top: 3vh;
-        flex-direction: column;
-     
+        flex-direction: column;     
         height:auto;
         width: auto;
+    }
+
+    .compromisso .content_compromisso {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        height: auto;
+    }
+
+    .compromisso .content_compromisso .img_compromisso{
+        align-items: center;
+        justify-content: center;
     }
 }

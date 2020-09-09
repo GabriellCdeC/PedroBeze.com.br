@@ -140,7 +140,8 @@
         padding: 30px;
         padding-top: 0;
         text-align: justify;
-        min-width: 90vw;
+        max-width: 85vw;
+        
     }
 
 }

@@ -120,12 +120,12 @@
 
 }
 
-  .buttonSubmit{
-      background: #46b968;
-      border: none;
-      padding: 5px;
-      border-radius: 15px 0 15px 0;
-  }
+.buttonSubmit{
+    background: #46b968;
+    border: none;
+    padding: 5px;
+    border-radius: 15px 0 15px 0;
+}
 
   .buttonSubmit:hover{
     transition: 0.7s;
@@ -162,6 +162,9 @@
         margin: 5px
     }
     
+    .buttonSubmit{
+        width: 80%
+    }
    
      
     

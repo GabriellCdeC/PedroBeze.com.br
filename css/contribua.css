@@ -22,14 +22,16 @@
 
 .text_motivo{
     background: linear-gradient(to right, #910303, #910303) ;
-    
+    border-radius: 0 0 0 25px;
 }
 
 .vaquinha{
     background: linear-gradient(to right,#910303,#46b968,#46b968, #46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968, orangered);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 
 .thumbnail-wrapper {
     display:inline-block;
@@ -54,6 +56,27 @@
 }
 .mande-propostas{
     background: orangered;
+    border-radius: 0 0 25px 0;
+}
+
+.div_input_proposta{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+    
+}
+
+.input_proposta {
+    resize: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0 15px 0 15px;
+    background: rgba(255, 255, 255, 0.5)
+  }
+#enviar{
+    margin-bottom: 15px
+    
 }
 
 /*Mobile Responsive*/

@@ -142,9 +142,9 @@
 
         </section>
         <div id="COMPROMISSO"></div>
-        <section  class="compromisso">
-            
-            <div  class="title">
+        <section class="compromisso">
+
+            <div class="title">
                 <h1>COMPROMISSO</h1>
             </div>
 
@@ -475,19 +475,124 @@
                 </div>
 
                 <div class="mande-propostas">
-                    <h2>COMPARTLHE SUA PROPOSTA COMIGO</h2>
+                    <h2>COMPARTLHE SUA IDEIA COMIGO</h2>
+
+                    <!--<form id="proposta_sugerida">
+                        <div class="div_input_proposta">
+    
+                            <input type="text" class="input_proposta" id="nome" name="nome" placeholder="Nome completo" required>
+
+                            <input type="text" class="input_proposta" id="email" name="email" placeholder="E-mail" required>
+
+                        </div>
+                        
+                        <br><br>
+
+                        <textarea name="ideia" class="input_proposta" id="ideia" cols="60" rows="8" placeholder=" Digite sua ideia aqui" required></textarea><br><br>
+                        <button class="submitButton" type="submit" form="proposta_sugerida">Enviar</button>
+                    </form>-->
+
+
+                    <!--<form action="https://formspree.io/mqkyrjdn" method="POST" target="_blank">
+                        <div class="div_input_proposta">
+                            <label>
+                                Seu nome 
+                                <input type="text" name="_name"  class="input_proposta" required>
+                            </label>
+                            <label>
+                                Seu email
+                                <input type="text" name="_email"  class="input_proposta" required>
+                            </label>
+                        </div><br>
+                            <label>                            
+                                
+                                <textarea name="_proposta"  class="input_proposta" cols="50" rows="8" required  placeholder="Digite aqui sua proposta"></textarea>
+                            </label><br>
+
+
+                             your other form fields go here 
+
+                            <button class="buttonSubmit" type="submit">Enviar</button>
+                    
+                    </form> -->
+
+                    <form id="my-form" action="https://formspree.io/mqkyrjdn" method="POST">
+                        <div class="div_input_proposta">
+                            <input class="input_proposta" type="text" name="name" required placeholder="Seu nome"/>
+                            <input class="input_proposta" type="email" name="email" required placeholder="Seu E-mail"/>
+                        </div><br>
+                        <textarea  name="proposta"  class="input_proposta" cols="50" rows="8" required  placeholder="Digite aqui sua ideia"></textarea>
+                        <br>
+                        <button class="buttonSubmit" id="my-form-button">Enviar ideia</button>
+                        <p class="sucessSubmit" id="my-form-status"></p>
+                    </form>
+
+                    <script>
+                        window.addEventListener("DOMContentLoaded", function() {
+                      
+                          // get the form elements defined in your form HTML above
+                          
+                          var form = document.getElementById("my-form");
+                          var button = document.getElementById("my-form-button");
+                          var status = document.getElementById("my-form-status");
+                      
+                          // Success and Error functions for after the form is submitted
+                          
+                          function success() {
+                            form.reset();
+                            button.style = "display: none ";
+                            status.innerHTML = "Obrigado por me enviar sua ideia!";
+                          }
+                      
+                          function error() {
+                            status.innerHTML = "Oops! There was a problem.";
+                          }
+                      
+                          // handle the form submission event
+                      
+                          form.addEventListener("submit", function(ev) {
+                            ev.preventDefault();
+                            var data = new FormData(form);
+                            ajax(form.method, form.action, data, success, error);
+                          });
+                        });
+                        
+                        // helper function for sending an AJAX request
+                      
+                        function ajax(method, url, data, success, error) {
+                          var xhr = new XMLHttpRequest();
+                          xhr.open(method, url);
+                          xhr.setRequestHeader("Accept", "application/json");
+                          xhr.onreadystatechange = function() {
+                            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                            if (xhr.status === 200) {
+                              success(xhr.response, xhr.responseType);
+                            } else {
+                              error(xhr.status, xhr.response, xhr.responseType);
+                            }
+                          };
+                          xhr.send(data);
+                        }
+                      </script>
+
                 </div>
-
             </div>
-
         </section>
 
         <section class="filiese">
-            <div class="content_filiese">   
-                <h1>Filie-se</h1>
+            <div class="title">
+                <h1>JUNTE-SE A NÓS</h1>
+            </div>
+
+            <div class="grid_filiese">
+                <div class="txt_filiese">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                    <a href="">FILIE-SE</a>
+                </div>
+                <div class="img_filiese"></div>
             </div>
         </section>
-        
+
     </main>
     <br><br>
     <footer class="footer">
@@ -496,21 +601,25 @@
                 <div class="logo_linkPSOL">
                     <a href="https://psol50.org.br/"><img src="img/logo-PB-compacto-horizontal.png" alt="Logo PSOL"></a>
                 </div>
-               
+
             </div>
             <div class="redes_sociais">
                 <h3>SIGA-ME NAS REDES SOCIAIS</h3>
-            <div class="redes_sociais_icons">
-                <a href="https://www.facebook.com/pedroinacio.bezeleite"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/pedrobeze/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UC4Xwz-F2Eltp9NkhCyk_m8g"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=556294877347"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            </div>
+                <div class="redes_sociais_icons">
+                    <a href="https://www.facebook.com/pedroinacio.bezeleite"><i class="fa fa-facebook-square"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/pedrobeze/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UC4Xwz-F2Eltp9NkhCyk_m8g"><i class="fa fa-youtube-play"
+                            aria-hidden="true"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=556294877347"><i class="fa fa-whatsapp"
+                            aria-hidden="true"></i></a>
+                </div>
             </div>
             <div class="logo_pedro">
                 <img src="img/pedro-beze-1024x738.png" alt="">
-            </div>           
-            
+            </div>
+
         </div>
     </footer>
 
@@ -518,6 +627,7 @@
     <script src="js/HeaderScroll.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

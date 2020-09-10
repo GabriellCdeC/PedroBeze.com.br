@@ -91,14 +91,15 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    max-width:100%;
+    max-width:90%;
   
 }
 
 .input_proposta {
     border: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 5vh ;
+    padding-left:10px;
+    padding-right:10px;
     border-radius: 0 10px 0 10px;
     background: rgba(255, 255, 255, 0.5);
 
@@ -152,10 +153,15 @@
     }
     
     .input_proposta{
-        margin: 10px;        
+        margin: 10px;  
+        height: 5vh      
     }
     
- 
+    .input_textarea{
+        width: 80%;
+        margin: 5px
+    }
+    
    
      
     

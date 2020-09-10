@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 25px;
-    margin: 0 1.5vw 0 1.5vw;
+    margin: 2vh 1.5vw 0 1.5vw;
     background: azure;
 }
 
@@ -23,6 +23,8 @@
 .text_motivo{
     background: linear-gradient(to right, #910303, #910303) ;
     border-radius: 0 0 0 25px;
+    padding: 10px;
+    color: white;
 }
 
 .vaquinha{
@@ -37,6 +39,8 @@
     display:inline-block;
     position:relative;
 }
+
+
 
 
 .thumbnail-wrapper div{    
@@ -80,6 +84,9 @@
       border: none;
       padding: 5px;
       border-radius: 15px 0 15px 0;
+        position: relative;
+
+      left: 30%;
   }
 
   .buttonSubmit:hover{

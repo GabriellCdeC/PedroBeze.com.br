@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: auto;
     background-color: #791414;
-    box-shadow: 0 0 30px 0 black ;
+    box-shadow: 0 0 30px black ;
     justify-content: space-evenly;
     align-items: center;
     z-index: 100;
@@ -59,6 +59,7 @@ body{
 }
 
 .footer .div_footer{
+    box-shadow: 0 0 30px black ;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
@@ -113,9 +114,6 @@ body{
 }
 
 
-
-
-
 .footer .div_footer  .logo_pedro{
     background:linear-gradient(to right,#440d28,#3b248d,#3b248d);
     display: flex;    
@@ -153,5 +151,31 @@ body{
         font-size: xx-large;
     }
 
-   
+    .footer .div_footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .footer .div_footer .logo_psol{
+        background:  linear-gradient(to bottom,#ff6600,#ff6600,#ff6600,#440d28);  
+        text-align: center;
+
+    }
+
+    .footer .div_footer  .redes_sociais{
+        background:  linear-gradient(to right,#440d28,#440d28);
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5em;
+    }
+    .footer .div_footer  .logo_pedro{
+        background:linear-gradient(to bottom,#440d28,#3b248d,#3b248d,#3b248d);  
+        justify-content: center;
+        height: auto;
+    }
+
+    .footer .div_footer  .logo_pedro img{
+        height: 90px;
+    }
 }

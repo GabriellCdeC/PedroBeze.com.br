@@ -1,0 +1,53 @@
+.filiese{
+    background: azure;
+    margin: 2vh 1.5vw 0 1.5vw;
+    border-radius: 25px;
+}
+
+.filiese:hover{
+    box-shadow: 0 0 10px black;
+}
+.flex_filiese{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.txt_filiese{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.txt_filiese a{
+    width: 5vw;
+    margin: 10px;
+    text-decoration: none;
+    color: azure;
+    background:linear-gradient(to bottom right, #350a1f,#672f70 );
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+
+.txt_filiese a:hover{
+    box-shadow: 0 0 10px #000000;
+    background:linear-gradient(to bottom right, rgba(53, 10, 31,0.95),rgba(103, 47, 112,0.95) );
+    font-weight: bolder 
+}
+
+.img_filiese{
+    background: linear-gradient(to bottom right, #791414, #791414, #ff6600);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 40vw;
+    border-radius: 25px;
+}
+
+.img_filiese img{
+    border-radius: 25px;
+    width: 100%;
+}

@@ -1,3 +1,11 @@
+<!--Desenvolvido por
+    Gabriell Castro de Carvalho (https://www.linkedin.com/in/gabriell-castro-de-carvalho-a4a821144/)
+    Igor Maciel Andrade (https://www.linkedin.com/in/igor-maciel-andrade-28960a1aa/)
+
+    Esse pagina contem imagens e conteudo com direitos autorais e seu uso fora deste dominio é expressamente proibido,
+    cabivel de procedimentos legais
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,19 +14,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Beze</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Links externos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Links CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/video_de_abertura.css">
     <link rel="stylesheet" href="css/trajetoria.css">
     <link rel="stylesheet" href="css/compromisso.css">
     <link rel="stylesheet" href="css/artigo_opiniao.css">
     <link rel="stylesheet" href="css/contribua.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/filiese.css">
 </head>
 
 <body id="conteudo">
+
+     <!-- HEADER -->
+     
     <header class="header">
         <div class="text_header">
             <a href="#TRAJETORIA">TRAJETÓRIA</a>
@@ -44,6 +58,8 @@
 
     <main class="main">
 
+        <!-- VIDEO -->
+
         <section class="video_de_abertura">
             <div class="video_desktop">
                 <video src="video/bg02.mp4" autoplay="autoplay" muted="muted" loop="loop"></video>
@@ -61,6 +77,8 @@
 
         </section>
 
+         <!-- TRAJETÓRIA -->
+        
         <section class="trajetoria">
             <div id="TRAJETORIA" class="title">
                 <h1>TRAJETÓRIA</h1>
@@ -141,6 +159,9 @@
             </div>
 
         </section>
+
+         <!-- COMPROMISSO -->
+
         <div id="COMPROMISSO"></div>
         <section class="compromisso">
 
@@ -440,6 +461,8 @@
             </div>
         </section>
 
+        <!-- ARTIGOS E OPINIÃO -->
+
         <section class="artigo_opiniao">
 
             <div id="ARTIGOS" class="title">
@@ -448,6 +471,7 @@
 
         </section>
 
+        <!-- CONTRIBUA -->
 
         <section class="contribua">
 
@@ -522,7 +546,7 @@
                             <input class="input_proposta" type="email" name="email" required placeholder="Seu E-mail"/>
                         </div><br>
                         <textarea  name="proposta"  class="input_proposta" cols="50" rows="8" required  placeholder="Digite aqui sua ideia"></textarea>
-                        <br>
+                        <br><br>
                         <button class="buttonSubmit" id="my-form-button">Enviar ideia</button>
                         <p class="sucessSubmit" id="my-form-status"></p>
                     </form>
@@ -573,28 +597,35 @@
                           };
                           xhr.send(data);
                         }
-                      </script>
+                    </script>
 
                 </div>
             </div>
         </section>
+
+         <!-- FILIE-SE -->
 
         <section class="filiese">
             <div class="title">
                 <h1>JUNTE-SE A NÓS</h1>
             </div>
 
-            <div class="grid_filiese">
+            <div class="flex_filiese">
                 <div class="txt_filiese">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-                    <a href="">FILIE-SE</a>
+                    <h2>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit</h2>
+                    <a href="https://psol50.org.br/filie-se/" target="_blank">FILIE-SE</a>
                 </div>
-                <div class="img_filiese"></div>
+                <div class="img_filiese">
+                    <img src="img/filiar-PSOL.jpeg" alt="">
+                </div>
             </div>
         </section>
 
     </main>
     <br><br>
+
+         <!-- FOOTER -->
+
     <footer class="footer">
         <div class="div_footer">
             <div class="logo_psol">
@@ -623,6 +654,8 @@
         </div>
     </footer>
 
+         <!-- SCRIPTS -->
+        
     <script src="js/Swiper.js"></script>
     <script src="js/HeaderScroll.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

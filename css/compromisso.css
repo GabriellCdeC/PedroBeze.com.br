@@ -2,8 +2,8 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
+    margin: 1.5vh;
     border-radius: 25px;
-    margin: 1.5vw;
     background: azure;
 }
 
@@ -13,7 +13,6 @@
 
 .compromisso .grid_compromisso {
     display: grid;
-    padding-top: 3vh;
     grid-template-columns: 1fr 1fr;
     height:auto;
     width: auto;
@@ -29,9 +28,6 @@
     
 }
     
-   
-
-
 .compromisso .content_compromisso .img_compromisso{
     margin-left: 0;
     margin-right: 15px;
@@ -76,7 +72,6 @@
     
     .compromisso .grid_compromisso {
         display: flex;
-        padding-top: 3vh;
         flex-direction: column;     
         height:auto;
         width: auto;

@@ -12,7 +12,7 @@
 }
 
 .contribua .grid_contribua {
-    padding-top: 3vh;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -21,12 +21,12 @@
 }
 
 .text_motivo{
-    background: rgb(145, 3, 3);
+    background: linear-gradient(to right, #910303, #910303) ;
     
 }
 
 .vaquinha{
-    background-color: #46b968;
+    background: linear-gradient(to right,#910303,#46b968,#46b968, #46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968, orangered);
     display: flex;
     justify-content: center;
 }

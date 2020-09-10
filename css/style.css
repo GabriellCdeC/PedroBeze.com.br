@@ -73,10 +73,13 @@ body{
     .title{
         height: 10vh;    
         font-size: medium;
+        
     }
 
     .title h1{ 
         font-size: xx-large;
     }
+
+   
 
 }

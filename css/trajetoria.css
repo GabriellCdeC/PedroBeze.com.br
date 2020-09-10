@@ -1,6 +1,6 @@
 .trajetoria{
     border-radius: 25px;
-    margin: 0 1.5vw 0 1.5vw;
+    margin:1.5vw;
     background: azure;
 }
 
@@ -134,7 +134,7 @@
     .carousel_div{
         height: auto;
         width: 85%;
-      
+        padding: 0;
     }
 
     .carousel_div .carousel-inner .item img{
@@ -142,7 +142,6 @@
         height: 40vh;
         align-items: center;
         z-index: 1;
-        padding: 0;
     }
       
     .carousel_trajetoria img{

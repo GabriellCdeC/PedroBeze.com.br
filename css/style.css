@@ -65,6 +65,10 @@ body{
     #conteudo .header .text_header{
         display: none;
     }
+    #conteudo .header .header_img img{
+        height: 13vh;
+        transition: 0.7s;
+    }
 
     .title{
         height: 10vh;    

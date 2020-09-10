@@ -165,7 +165,24 @@
     .buttonSubmit{
         width: 80%
     }
-   
+
+    .text_motivo{
+        border-radius: 0;
+        background: linear-gradient(to bottom,#910303,#910303,#910303,#910303,#910303,#46b968);
+    }
+
+    .vaquinha{
+        background:#46b968;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .mande-propostas{
+        background: linear-gradient(to bottom,#46b968, orangered, orangered, orangered);
+        border-radius: 0 0 25px 25px;
+    }
      
     
 }

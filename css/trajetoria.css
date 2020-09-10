@@ -133,9 +133,15 @@
 
     .carousel_div{
         height: auto;
-        width: 88%;
-        amargin:20px;
+        width: 85%;
       
+    }
+
+    .carousel_div .carousel-inner .item img{
+        width: 100vw;
+        height: 40vh;
+        align-items: center;
+        z-index: 1;
     }
       
     .carousel_trajetoria img{

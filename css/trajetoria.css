@@ -56,7 +56,7 @@
 
 .carousel-indicators{
     display: none;
-    background: black
+    background: black;
 }
 
 #myCarousel{
@@ -123,9 +123,18 @@
         flex-direction: column;
         
     }
+
+    .content_trajetoria hr{
+        border: solid #791414 1px;
+        height: auto;
+        border-radius: 30%;
+        width: 90vw;
+    }
+
     .carousel_div{
         height: auto;
         width: 88%;
+        amargin:20px;
       
     }
       
@@ -135,6 +144,7 @@
     .carousel_div .carousel-inner .item img{
         width: 95vw;       
     }
+  
 
     .text_trajetoria{
         padding: 30px;

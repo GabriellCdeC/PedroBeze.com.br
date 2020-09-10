@@ -24,7 +24,8 @@
     display: flex;
     height:50vh;
     width: auto;
-    border: salmon solid 5px;
+    aabox-shadow: 0px 3px 2px rgb(94, 94, 94);
+    border-bottom: solid 5px #791414c9;
 }
    
 

@@ -23,7 +23,7 @@
 .compromisso .content_compromisso{
     padding: 20px;
     display: flex;
-    height:50vh;
+    height: 50vh;
     width: auto;
     border: solid 2px #791414;
     
@@ -41,7 +41,7 @@
 
 .compromisso .content_compromisso .img_compromisso img{    
     height: 20vh;
-    border-radius: 50%;
+    
 }
 
 .compromisso .content_compromisso .text_compromisso{

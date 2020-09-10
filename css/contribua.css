@@ -178,6 +178,12 @@
         align-items: center;
     }
 
+    
+.thumbnail-wrapper div{  
+    width: 20vw;
+    height: 3vh;
+}
+
 
     .mande-propostas{
         background: linear-gradient(to bottom,#46b968, orangered, orangered, orangered);

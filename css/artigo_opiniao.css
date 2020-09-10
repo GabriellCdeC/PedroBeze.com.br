@@ -1,5 +1,5 @@
 
-.aritgo_opiniao{
+.artigo_opiniao{
     display: flex;
     flex-direction:column ;
     border-radius: 25px;
@@ -7,6 +7,6 @@
     background: azure;
 }
 
-.aritgo_opiniao:hover{
+.artigo_opiniao:hover{
     box-shadow: 0 0 10px black;
 }

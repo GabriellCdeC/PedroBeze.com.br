@@ -33,10 +33,10 @@ body{
 }
 
 #conteudo .header .text_header a:hover{
-    background-color: rgb(255, 255, 255); 
-    color: #ff6600;
-    border-radius: 15px;  
-    border: solid 5px #ff6600;  
+    background-color: white; 
+    color: #791414;
+    border-radius: 15px; 
+    
 }
 
 #conteudo .header .header_img img{

@@ -52,12 +52,16 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     color: #ffffff;
     border-bottom: solid 5px #630000;
     font-size: 1.5em;
 }
-
+.title h1{
+    background:#230052;
+    border-radius: 0 25px 25px 0;
+    margin: -10px;
+    padding: 5px 20vw 5px 5vw;
+}
 .footer .div_footer{
     box-shadow: 0 0 30px black ;
     display: grid;

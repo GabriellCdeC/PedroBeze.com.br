@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 
 var headerElement = document.querySelector('#conteudo .header');
 var headerImg = document.querySelector('#conteudo .header_img img');
@@ -23,11 +23,12 @@ function modifySizeOnScroll() {
   });
 }
 
-modifySizeOnScroll();
+modifySizeOnScroll();*/
 
-/*
+
 const headerElement = document.querySelector('#conteudo .header')
 const headerImg = document.querySelector('#conteudo .header_img img')
+const toTopArrow = document.querySelector('.arrow-top')
 
 
 function modifySizeOnScroll(){
@@ -40,14 +41,19 @@ function modifySizeOnScroll(){
         if(window.screen.width > 1100){
           if(scrollPos > 10){
             headerImg.style.height= '12vh'
+            toTopArrow.style.display = 'block'
           } else if (scrollPos == 0){
             headerImg.style.height= '15vh'
+            toTopArrow.style.display = 'none'
           } 
         }else if(window.screen.width <= 1100){
           if(scrollPos > 10){
             headerImg.style.height= '11vh'
+            toTopArrow.style.display = 'block'
           } else if (scrollPos == 0){
             headerImg.style.height= '13vh'
+            toTopArrow.style.display = 'none'
+            
           } 
         }
              
@@ -56,4 +62,4 @@ function modifySizeOnScroll(){
     
 }
 
-modifySizeOnScroll() */
+modifySizeOnScroll() 

@@ -186,11 +186,8 @@ body{
 
     .btnMenu {
         display: block;
-        background-repeat: no-repeat;
-        background-position: 15px center;
-        text-indent: -9999px;
         padding: 20px 15px;
-        background-image: url(../img/a.svg);
+        font-size: 2em;       
 
         
     }       
@@ -208,13 +205,24 @@ body{
         transform: translateX(0);
     }
 
+    .fa-bars{
+        font-size: 2em;  
+    }
+
     .btnMenu_open{
-        width: 4vw;
+        width: 4vw;       
+        background-repeat: no-repeat;
+        
+        background-position: 15px center;
         
     }
 
     .btnMenu_close{
         background-color: #d42c2c;
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        font-size: 2em;  
+        color: white;
         
     }
 

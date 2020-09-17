@@ -10,3 +10,49 @@
 .artigo_opiniao:hover{
     box-shadow: 0 0 10px black;
 }
+
+.content_artigo_opiniao{
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgb(167, 158, 158);
+   
+   
+}
+
+.post{
+    height: auto;
+    
+
+}
+
+.fb-twitter{
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    border: solid 5px rgb(252, 8, 8);
+}
+
+.fb_reset{
+    width: 50vw;
+
+}
+
+ .fb_iframe_widget{
+    width: 500px;
+ }
+
+.artigos{
+    width: 100%;
+    height: 500px;
+    border: solid 5px rgb(0, 0, 0);
+}

@@ -4,7 +4,7 @@
     flex-direction:column ;
     border-radius: 25px;
     margin: 2vh 1.5vw 0 1.5vw;
-    background: azure;
+    background: rgb(255, 255, 255);
 }
 
 .artigo_opiniao:hover{
@@ -23,7 +23,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 30px 0px;
-    background-color: rgb(167, 158, 158);
+    background-color: rgba(167, 158, 158,0.5);
    
 }
 
@@ -44,21 +44,51 @@
 }
 
 .fb-twitter{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 20px 0;
     width: 100%;
     height: auto;
-    border: solid 5px rgb(252, 8, 8);
+    align-items: center;
+
+    
 }
 
-.fb_reset{
-    width: 50vw;
-
+.tw-page{
+    text-align: center;
 }
 
- .fb_iframe_widget{
-    width: 500px;
- }
+.twitter-timeline{
+    opacity: 0.6;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+.twitter-timeline:hover{
+    opacity:1;
+    transform: scale(1.05);
+}
+
+.fb-div{
+    text-align: center;
+}
+
+.fb-page{
+    opacity: 0.6;
+    transition: 0.7s;
+}
+
+.fb-page:hover{
+    opacity:1;
+    transform: scale(1.05);
+}
+
+
+
+
+.twitter-timeline{
+    height: 50px;
+}
 
 .artigos{
     width: 100%;

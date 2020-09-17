@@ -7,9 +7,11 @@
 body{
     background: rgb(224, 224, 224);
 }
+
+/*remove dotted line around the links*/
 a, a:active, a:focus{
 
-    outline: none; /* Works in Firefox, Chrome, IE8 and above */ 
+    outline: none;  
 
 }
 
@@ -153,15 +155,13 @@ a, a:active, a:focus{
 }
 
 
-.footer .div_footer  .logo_pedro{
+.footer .div_footer  .copyright{
     background:linear-gradient(to right,#440d28,#3b248d,#3b248d);
     display: flex;    
     justify-content: end;
+    align-items: center;
 }
-.footer .div_footer .logo_pedro img{
-    width: 50%; 
-    height: 95.25px;  
-}
+
 
 .filiese{
     text-align: center;

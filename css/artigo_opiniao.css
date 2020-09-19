@@ -103,7 +103,9 @@
 
     
     .post{
-        padding: 10px;
+        padding: 20px;
+        opacity: 1;
+        transform: scale(1.01111);
     }
 
     .fb-twitter{
@@ -111,5 +113,12 @@
         flex-direction: column;
     }
 
+    @media(max-width: 850px){
+        .post{
+            padding: 10px;
+            opacity: 1;
+            transform: scale(.89);
+        }
+    }
 
 }

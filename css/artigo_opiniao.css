@@ -98,7 +98,12 @@
     
     .instagram{       
         flex-direction: column;       
-   
+        
+    }
+
+    
+    .post{
+        padding: 10px;
     }
 
     .fb-twitter{
@@ -106,5 +111,5 @@
         flex-direction: column;
     }
 
-    
+
 }

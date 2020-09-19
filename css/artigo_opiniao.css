@@ -114,10 +114,9 @@
     }
 
     @media(max-width: 850px){
-        .post{
-            padding: 10px;
-            opacity: 1;
-            transform: scale(.89);
+        .post{            
+            margin-top: -100px;
+            transform: scale(.85);
         }
     }
 

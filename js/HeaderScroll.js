@@ -18,9 +18,11 @@ function modifySizeOnScroll() {
       }
     } else if (window.screen.width <= 1100) {
       if (scrollPos > 10) {
-        headerImg.style.height = '11vh';        
+        headerImg.style.height = '11vh';
+        toTopArrow.style.display = 'block';        
       } else if (scrollPos == 0) {
-        headerImg.style.height = '13vh';    
+        headerImg.style.height = '13vh';
+        toTopArrow.style.display = 'none';    
       }
     }
   });

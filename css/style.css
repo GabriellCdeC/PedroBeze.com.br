@@ -280,19 +280,8 @@ a, a:active, a:focus{
     }
 
     .arrow-top{
-        font-size: 30px;
-        color: #fff;
-        background: rgba(0,0,0,0.2);
-        position: fixed;
-        display: none;
-        right: 14px;
-        bottom: 14px;
-        z-index: 999;
-        height: 45px;
-        width: 45px;
-        text-align: center;
-        padding-top: 8px;
-        line-height: 31px;
-        transition: 0.7s;
+        
+        left:5px;
+      
     }
 }

@@ -42,51 +42,11 @@
     transform: scale(1.05);
 }
 
-.fb-twitter{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px 0;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    
-}
-
-.tw-page{
-    text-align: center;
-}
-
-.twitter-timeline{
-    opacity: 0.6;
-    transition: 0.7s;
-    border-radius: 10px;
-}
-
-.twitter-timeline:hover{
-    opacity:1;
-    transform: scale(1.05);
-}
-
-.fb-div{
-    text-align: center;
-}
-
-.fb-page{
-    opacity: 0.6;
-    transition: 0.7s;
-}
-
-.fb-page:hover{
-    opacity:1;
-    transform: scale(1.05);
-}
 
 
 
 
-.twitter-timeline{
-    height: 50px;
-}
+
 
 .artigos{
     width: 100%;
@@ -108,10 +68,6 @@
         transform: scale(1.01111);
     }
 
-    .fb-twitter{
-        display: flex;
-        flex-direction: column;
-    }
 
     @media(max-width: 850px){
         .post{            

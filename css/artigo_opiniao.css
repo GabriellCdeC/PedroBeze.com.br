@@ -71,8 +71,16 @@
 
     @media(max-width: 850px){
         .post{            
-            margin-top: -100px;
+            margin-bottom: -100px;
             transform: scale(.85);
+        }
+
+        .post1{
+            margin-top: -80px;
+        }
+
+        .post3{
+            margin-bottom: -80px;
         }
     }
 

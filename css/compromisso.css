@@ -2,8 +2,6 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
-    margin: 2vh 1.5vw 0 1.5vw;
-    border-radius: 25px;
     background: azure;
 }
 
@@ -24,7 +22,7 @@
     display: flex;
     height: 50vh;
     width: auto;
-    border: solid 2px #791414;
+    border: solid 2px #230052;
     
 }
     

@@ -2,8 +2,6 @@
 .contribua{
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
-    margin: 2vh 1.5vw 0 1.5vw;
     background: azure;
 }
 

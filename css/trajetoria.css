@@ -1,6 +1,5 @@
 .trajetoria{
-    border-radius: 25px;
-    margin: 2vh 1.5vw 0 1.5vw;
+    Amargin: 2vh 1.5vw 0 1.5vw;
     background: azure;
 }
 
@@ -41,10 +40,13 @@
 
 .text_trajetoria{
     height: auto; 
-    font-size: 1.5em;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgb(84, 87, 90);
+    font-family: Roboto;
     max-width: 50vw;
     text-align: justify;
-    padding: 10px 20px;
+    padding: 20px 30px;
 }
 
 .content_trajetoria hr{

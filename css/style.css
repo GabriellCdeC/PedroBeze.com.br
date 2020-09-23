@@ -4,9 +4,7 @@
     padding: 0;
    
 }
-body{
-    background: rgb(224, 224, 224);
-}
+
 
 /*remove dotted line around the links*/
 a, a:active, a:focus{
@@ -82,15 +80,13 @@ a, a:active, a:focus{
 }
 
 .title{
-    background: linear-gradient(to bottom right, #791414, #791414, #ff6600);
     height: 120px;
     width: 100%;
-    border-radius: 25px 25px 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #ffffff;
-    border-bottom: solid 5px #630000;
+    border-bottom: solid 5px #230052;
     font-size: 1.5em;
 }
 .title h1{

@@ -69,7 +69,7 @@
     }
 
     .post:hover{
-        transform: scale(1.01111);
+        transform: none;
     }
 
 
@@ -77,6 +77,9 @@
         .post{            
             margin-bottom: -100px;
             transform: scale(.85);
+        }
+        .post:hover{
+            transform: none;
         }
 
         .post1{

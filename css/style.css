@@ -192,9 +192,8 @@ a, a:active, a:focus{
     .btnMenu {
         display: block;
         padding: 20px 15px;
-        font-size: 2em;       
+        font-size: 2em;  
 
-        
     }       
     
     .menu{
@@ -243,8 +242,6 @@ a, a:active, a:focus{
     }
 
 
-
-
     /*Fim menu Hamburger*/
 
     .title{
@@ -283,5 +280,22 @@ a, a:active, a:focus{
 
     .footer .div_footer  .logo_pedro img{
         height: 90px;
+    }
+
+    .arrow-top{
+        font-size: 30px;
+        color: #fff;
+        background: rgba(0,0,0,0.2);
+        position: fixed;
+        display: none;
+        right: 14px;
+        bottom: 14px;
+        z-index: 999;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        padding-top: 8px;
+        line-height: 31px;
+        transition: 0.7s;
     }
 }

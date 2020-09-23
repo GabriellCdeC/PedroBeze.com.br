@@ -68,6 +68,10 @@
         transform: scale(1.01111);
     }
 
+    .post:hover{
+        transform: scale(1.01111);
+    }
+
 
     @media(max-width: 850px){
         .post{            

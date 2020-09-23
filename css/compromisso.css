@@ -2,7 +2,9 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
-    background: azure;
+    margin: 1vh 1vw ;
+    border-radius: 25px;
+    background: rgba(57, 93, 253, 0.25);
 }
 
 .compromisso:hover{

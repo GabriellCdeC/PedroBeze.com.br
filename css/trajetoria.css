@@ -1,5 +1,4 @@
 .trajetoria{
-    Amargin: 2vh 1.5vw 0 1.5vw;
     background: azure;
 }
 
@@ -182,3 +181,10 @@
     }
 
 }
+@media(min-width: 1600px){
+    .text_trajetoria{
+        font-size: 1.6em;
+      
+    }
+}
+

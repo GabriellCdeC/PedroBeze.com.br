@@ -4,7 +4,7 @@
     flex-direction:column ;
     margin: 1vh 1vw ;
     border-radius: 25px;
-    background: rgba(57, 93, 253, 0.25);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 .compromisso:hover{
@@ -22,7 +22,7 @@
 .compromisso .content_compromisso{
     padding: 20px;
     display: flex;
-    height: 25vh;
+    height: auto;
     width: auto;
     border: solid 2px #230052;
     
@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     padding: 0;
-    border: solid 5px black 
+     
 }
 
 .compromisso .content_compromisso .img_compromisso img{    

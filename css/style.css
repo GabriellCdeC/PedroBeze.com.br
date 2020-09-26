@@ -155,7 +155,7 @@ a, a:active, a:focus{
 .footer .div_footer  .copyright{
     background:linear-gradient(to right,#440d28,#3b248d,#3b248d);
     display: flex;    
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 
 }

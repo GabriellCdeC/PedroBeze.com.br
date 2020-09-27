@@ -2,7 +2,7 @@
 .contribua{
     display: flex;
     flex-direction: column;
-    background: azure;
+    background: #bc6c14;
 }
 
 .contribua:hover{
@@ -18,15 +18,19 @@
     
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+ 
+}
 .text_motivo{
-    background: linear-gradient(to right, #910303, #910303) ;
+    text-align: center;
+    align-items: center;
     border-radius: 0 0 0 25px;
     padding: 10px;
-    color: white;
+    color:black;
 }
 
-.vaquinha{
-    background: linear-gradient(to right,#910303,#46b968,#46b968, #46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968,#46b968, orangered);
+.vaquinha{   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +79,6 @@
 }
 
 .mande-propostas{
-    background: orangered;
     border-radius: 0 0 25px 0;
 }
 
@@ -99,7 +102,8 @@
     padding-left:10px;
     padding-right:10px;
     border-radius: 0 10px 0 10px;
-    background: rgba(255, 255, 255, 0.5);
+    background: #672f70;
+    color: white;
 
   }
 
@@ -109,7 +113,9 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0 15px 0 15px;
-    background: rgba(255, 255, 255, 0.5);
+    background: #672f70;
+    color: white;
+
     width: 90%;
 }
 
@@ -119,10 +125,12 @@
 }
 
 .buttonSubmit{
-    background: #46b968;
+    background: #672f70;
     border: none;
     padding: 5px;
     border-radius: 15px 0 15px 0;
+    color: white;
+    width: 300px;
 }
 
   .buttonSubmit:hover{
@@ -167,11 +175,11 @@
 
     .text_motivo{
         border-radius: 0;
-        background: linear-gradient(to bottom,#910303,#910303,#910303,#910303,#910303,#46b968);
+        
     }
 
     .vaquinha{
-        background:#46b968;
+     
         display: flex;
         justify-content: center;
         align-items: center;
@@ -184,8 +192,7 @@
 }
 
 
-    .mande-propostas{
-        background: linear-gradient(to bottom,#46b968, orangered, orangered, orangered);
+    .mande-propostas{        
         border-radius: 0 0 25px 25px;
     }
      

@@ -81,7 +81,7 @@ a, a:active, a:focus{
 }
 
 .title{
-    height: 120px;
+    height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -89,13 +89,16 @@ a, a:active, a:focus{
     color: #ffffff;
     border-bottom: solid 5px #230052;
     font-size: 1.5em;
+    overflow: hidden;
 }
+
 .title h1{
     background:#230052;
     border-radius: 0 25px 25px 0;
     margin: -10px;
     padding: 5px 20vw 5px 5vw;
 }
+
 .footer .div_footer{
     box-shadow: 0 0 30px black ;
     display: grid;

@@ -113,6 +113,15 @@ a, a:active, a:focus{
 
 }
 
+.footer .div_footer .logo_psol{
+    background:  linear-gradient(to right,#ff6600,#ff6600,#440d28);
+    display: flex;    
+    text-align: left;
+    align-items: center;
+    cursor: pointer;
+
+}
+
 
 .footer .div_footer .logo_psol a img{
     width: 50%;  

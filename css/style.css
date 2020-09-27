@@ -268,26 +268,25 @@ a, a:active, a:focus{
         
     }
 
-    .footer .div_footer .logo_psol{
-        background:  linear-gradient(to bottom,#ff6600,#ff6600,#ff6600,#440d28);  
+    .footer .div_footer .logo_psol{        
         text-align: center;
 
     }
 
     .footer .div_footer  .redes_sociais{
-        background:  linear-gradient(to right,#440d28,#440d28);
+        
         display: flex;
         flex-direction: column;
         font-size: 2.5em;
     }
     .footer .div_footer  .logo_pedro{
-        background:linear-gradient(to bottom,#440d28,#3b248d,#3b248d,#3b248d);  
+    
         justify-content: center;
         height: auto;
     }
 
-    .footer .div_footer  .logo_pedro img{
-        height: 90px;
+    .footer .div_footer .copyright{
+        justify-content: center;
     }
 
     .arrow-top{

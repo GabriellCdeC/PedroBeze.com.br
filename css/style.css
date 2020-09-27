@@ -109,12 +109,13 @@ a, a:active, a:focus{
     display: flex;    
     text-align: left;
     align-items: center;
+    cursor: pointer;
 
 }
 
 
 .footer .div_footer .logo_psol a img{
-    width: 50%;    
+    width: 50%;  
 }
 
 

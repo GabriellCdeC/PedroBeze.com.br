@@ -2,14 +2,11 @@
 .compromisso{
     display: flex;
     flex-direction:column ;
-    margin: 1vh 1vw ;
+    margin: 1vh 0 0 0 ;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.25);
 }
 
-.compromisso:hover{
-    box-shadow: 0 0 10px black;
-}
 
 .compromisso .grid_compromisso {
     display: grid;

@@ -4,9 +4,6 @@
     background-size: cover ;
 }
 
-.filiese:hover{
-    box-shadow: 0 0 10px black;
-}
 .flex_filiese{
     display: flex;
     flex-direction: row;

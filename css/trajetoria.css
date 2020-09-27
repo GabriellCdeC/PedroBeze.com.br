@@ -2,9 +2,6 @@
     background: azure;
 }
 
-.trajetoria:hover{
-    box-shadow: 0 0 10px black;
-}
 
 .content_trajetoria{
     display: flex;

@@ -1,17 +1,7 @@
-.contribua{
-    display: flex;
-    flex-direction: column;
-    background: #bc6c14;
-}
-
-.contribua:hover{
-    box-shadow: 0 0 10px black;
-}
-
 .contribua .grid_contribua {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     height: auto;
     width: auto;
     
@@ -33,52 +23,36 @@
     
 }
 
-.vaquinha{   
+
+.buttonContribua{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-
-.thumbnail-wrapper {
-    display:inline-block;
-    position:relative;
-}
-
-
-
-
-.thumbnail-wrapper div{    
-    /*Parte que centraliza o botão*/
-    
-    position:absolute;
-    top:50%;
-    left:50%;
-    -webkit-transform:translate3d(-50%, -50%, 0);
-    -moz-transform:translate3d(-50%, -50%, 0);
-    transform:translate3d(-50%, -50%, 0);
-    /*Propiedades do botão(Cores, tamanha, bordar etc*/
-    
-    opacity: 0.9;
+.buttonContribua .buttonPart{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5vw;
-    background: rgb(255, 255, 255);
+    background-color: rgb(76, 9, 114);
+    height: auto;
+    width: auto;
     padding: 10px;
-    border: solid 5px #000000;
-    border-radius: 10px;
-    color: #46b968;
-    
+    transition: 0.5s;
+    border-radius: 5px;
 }
 
-.thumbnail-wrapper div:hover{
-    box-shadow: 0 0 10px #000000;
-    background:#46b968;
+.buttonContribua .buttonPart a{
+    text-decoration: none;
     color: white;
-    opacity: 1;
-    font-weight: bold;
-    transition: 0.8s;
+    font-size: 1.6em;
+}
+
+.buttonContribua .buttonPart:hover{   
+    background-color: rgb(118, 19, 175);
+    transform: scale(.98);
+   
 }
 
 .mande-propostas{
@@ -93,7 +67,7 @@
 
 .div_input_proposta{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     max-width:90%;
   

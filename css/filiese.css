@@ -31,13 +31,14 @@
     background:linear-gradient(to bottom right, #350a1f,#672f70 );
     padding: 10px;
     border-radius: 10px;
-    transition: 1s; 
+    transition: 0.7s; 
+    box-shadow: 0 0 10px #000000;
 }
 
 .txt_filiese a:hover{
     box-shadow: 0 0 10px #000000;
-    background:linear-gradient(to bottom right, rgba(53, 10, 31,0.95),rgba(103, 47, 112,0.95) );
-    font-weight: bold
+    background:linear-gradient(to bottom right, rgba(53, 10, 31,0.85),rgba(103, 47, 112,0.85));
+    transform: scale(.95);
 }
 
 .img_filiese{

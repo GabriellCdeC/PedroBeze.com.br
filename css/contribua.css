@@ -57,15 +57,18 @@
 
 .grid-compartilhe{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 30px;
 }
 
 .div_proposta_nome{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 15px
+    flex-direction: column;  
+    padding: 30px;
+}
+
+.email_input{
+    margin-top: 5vh;
 }
 
 .div_input_proposta{
@@ -158,7 +161,7 @@
   
     .grid-compartilhe{
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
     .mande-propostas{        
         border-radius: 0 0 25px 25px;

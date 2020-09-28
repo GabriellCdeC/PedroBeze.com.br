@@ -2,6 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
    
 }
 
@@ -233,7 +234,7 @@ a, a:active, a:focus{
     }
 
     .btnMenu_close{
-        background-color: #d42c2c;
+        background-color: #e09230;
         background-repeat: no-repeat;
         background-position: 15px center;
         font-size: 2em;  
@@ -244,7 +245,7 @@ a, a:active, a:focus{
     .menu-item{
         padding: 20px 15px;
         border-bottom: 1px solid #000;
-        background-color: #d42c2c;
+        background-color: #e09230;
     }
 
     .menu-item-action{

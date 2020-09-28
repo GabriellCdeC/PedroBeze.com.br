@@ -630,32 +630,25 @@
                     <h1>COMPARTLHE SUA IDEIA COMIGO</h1>
                 </div>
                 <div class="grid-compartilhe">
-
-                    <div class="div_proposta_nome">
-
-                        <input class="input_proposta" type="text" name="name" required placeholder="Seu nome" />
-                        <input class="input_proposta email_input" type="email" name="email" required placeholder="Seu E-mail" />
-                    </div>
-
-
-                    <div>
+                    <div class="mande-propostas">
+                        <h3>COMPARTLHE SUA IDEIA COMIGO</h3>
+    
                         <form id="my-form" action="https://formspree.io/mqkyrjdn" method="POST">
-
-                            <div class="div_proposta_proposta">
-
-                                <textarea name="proposta" class="input_textarea" required rows="10"
+    
+                            <div class="div_proposta">
+                                <div class="div_input_proposta">
+                                    <input class="input_proposta" type="text" name="name" required placeholder="Seu nome" />
+                                    <input class="input_proposta" type="email" name="email" required
+                                        placeholder="Seu E-mail" />
+                                </div>
+                                <textarea name="proposta" class="input_textarea" required rows="8"
                                     placeholder="Digite aqui sua ideia"></textarea>
                             </div>
-                        </form>
-
-                        <div class="div_proposta_proposta_enviar">
+    
+                            <br><br>
                             <button class="buttonSubmit" id="my-form-button">Enviar ideia</button>
                             <p class="sucessSubmit" id="my-form-status"></p>
-                        </div>
-
-                    </div>
-
-
+                        </form>
                 </div>
                 <script>
                     window.addEventListener("DOMContentLoaded", function () {

@@ -62,7 +62,7 @@
     padding: 30px;
 }
 
-.div_proposta_nome{
+.div_input_proposta_nome{
     display: flex;
     flex-direction: column;  
     padding: 30px;

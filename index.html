@@ -629,27 +629,27 @@
                 <div class="title">
                     <h1>COMPARTLHE SUA IDEIA COMIGO</h1>
                 </div>
-                <div class="grid-compartilhe">
-                    <div class="mande-propostas">
-                        <h3>COMPARTLHE SUA IDEIA COMIGO</h3>
-    
-                        <form id="my-form" action="https://formspree.io/mqkyrjdn" method="POST">
-    
-                            <div class="div_proposta">
-                                <div class="div_input_proposta">
-                                    <input class="input_proposta" type="text" name="name" required placeholder="Seu nome" />
-                                    <input class="input_proposta" type="email" name="email" required
-                                        placeholder="Seu E-mail" />
-                                </div>
-                                <textarea name="proposta" class="input_textarea" required rows="8"
-                                    placeholder="Digite aqui sua ideia"></textarea>
-                            </div>
-    
-                            <br><br>
+
+                <form id="my-form" action="https://formspree.io/mqkyrjdn" method="POST">
+                    <div class="grid-compartilhe">
+
+
+                        <div class="div_input_proposta_nome">
+                            <input class="input_proposta" type="text" name="name" required placeholder="Seu nome" />
+                            <input class="input_proposta email_input" type="email" name="email" required placeholder="Seu E-mail" />
+                        </div>
+
+                        <div>
+                            <textarea name="proposta" class="input_textarea" required rows="10"
+                                placeholder="Digite aqui sua ideia"></textarea>
+
+
                             <button class="buttonSubmit" id="my-form-button">Enviar ideia</button>
                             <p class="sucessSubmit" id="my-form-status"></p>
-                        </form>
-                </div>
+                        </div>
+                    </div>
+                </form>
+
                 <script>
                     window.addEventListener("DOMContentLoaded", function () {
 

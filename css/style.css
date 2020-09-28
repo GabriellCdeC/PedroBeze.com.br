@@ -22,7 +22,7 @@ a, a:active, a:focus{
     flex-direction: row;
     width: 100%;
     height: auto;
-    background-color: #791414;
+    background-color: #e09230;
     box-shadow: 0 0 30px black ;
     justify-content: space-evenly;
     align-items: center;
@@ -105,7 +105,7 @@ a, a:active, a:focus{
     grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     color: white;
-    background: #791414;
+    background: #e09230;
 }
 
 .footer .div_footer .logo_psol{

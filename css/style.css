@@ -40,7 +40,7 @@ a, a:active, a:focus{
 
 #conteudo .header .text_header a:hover{
     background-color: white; 
-    color: #791414;
+    color: #e09230;
     border-radius: 15px; 
     
 }
@@ -77,7 +77,7 @@ a, a:active, a:focus{
 
 .arrow-top:hover,
 .arrow-top a:hover{   
-    background: rgb(170, 0, 0);
+    background: #e09230;
     color: white;
 }
 

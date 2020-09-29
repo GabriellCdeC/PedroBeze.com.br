@@ -93,15 +93,6 @@
             transform: scale(.8);
         }
 
-        .post1{
-            margin-top: -20px;
-        }
-
-        .post3{
-            margin-bottom: -20px;
-        }
-
-
     @media(max-width: 500px){
         .post{            
             margin-bottom: -100px;
@@ -109,7 +100,7 @@
        
         }
         .post:hover{
-            transform: scale(.85);
+            transform: scale(.7);
         }
 
         

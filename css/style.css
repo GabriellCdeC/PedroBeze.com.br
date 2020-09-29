@@ -86,16 +86,17 @@ a, a:active, a:focus{
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #ffffff;
-    border-bottom: solid 5px #230052;
+    color:#e09230;
+    border-bottom: solid 5px linear-gradient(to bottom right, #079e80, #36004d);;
     font-size: 1.5em;
 }
 
 .title h1{
-    background:#230052;
+    background:linear-gradient(to bottom right, #014134, #36004d);
     border-radius: 0 25px 25px 0;
-    margin: -10px;
     padding: 5px 20vw 5px 5vw;
+    width: 30vw;
+
 }
 
 
@@ -105,7 +106,7 @@ a, a:active, a:focus{
     grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     color: white;
-    background: white;
+    background:#e09230;
 }
 
 .footer .div_footer .logo_psol{    
@@ -155,17 +156,11 @@ a, a:active, a:focus{
 }
 
 
-.footer .div_footer .logo_manu{
+.footer .div_footer .copyright{
    
     display: flex;    
-    text-align: right;
+    justify-content: flex-end;
     align-items: center;
-    cursor: pointer;
-
-}
-
-.footer .div_footer .logo_manu a img{
-    width: 50%; 
 
 }
 
@@ -282,9 +277,8 @@ a, a:active, a:focus{
         height: auto;
     }
 
-    .footer .div_footer .logo_manu{
+    .footer .div_footer .copyright{
         justify-content: center;
-        text-align: center;
     }
 
     .arrow-top{        

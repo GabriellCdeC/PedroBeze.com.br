@@ -162,11 +162,8 @@
 
     .contribua .grid_contribua {
         display: flex;
-        flex-direction: column;
-        height: auto;
-        width: auto;
-        margin-bottom: 30px;
-        
+        flex-direction: column;    
+        margin-bottom: 30px;        
     }
 
     .grid-compartilhe{

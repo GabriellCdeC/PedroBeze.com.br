@@ -106,27 +106,16 @@ a, a:active, a:focus{
     grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     color: white;
-    background: #e09230;
+    background: white;
 }
 
-.footer .div_footer .logo_psol{
-    
+.footer .div_footer .logo_psol{    
     display: flex;    
     text-align: left;
     align-items: center;
     cursor: pointer;
 
 }
-
-.footer .div_footer .logo_psol{
-    
-    display: flex;    
-    text-align: left;
-    align-items: center;
-    cursor: pointer;
-
-}
-
 
 .footer .div_footer .logo_psol a img{
     width: 50%;  
@@ -155,7 +144,7 @@ a, a:active, a:focus{
 }
 
 .footer .div_footer  .redes_sociais_icons .fa-instagram{
-    color: white;
+    color: rgb(125, 19, 151);
 }
 
 .footer .div_footer  .redes_sociais_icons .fa-facebook-squar{
@@ -167,11 +156,17 @@ a, a:active, a:focus{
 }
 
 
-.footer .div_footer .copyright{
+.footer .div_footer .logo_manu{
    
     display: flex;    
-    justify-content: flex-end;
+    text-align: right;
     align-items: center;
+    cursor: pointer;
+
+}
+
+.footer .div_footer .logo_manu a img{
+    width: 50%; 
 
 }
 

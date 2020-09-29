@@ -89,7 +89,6 @@ a, a:active, a:focus{
     color: #ffffff;
     border-bottom: solid 5px #230052;
     font-size: 1.5em;
-    overflow: hidden;
 }
 
 .title h1{
@@ -222,8 +221,7 @@ a, a:active, a:focus{
 
     .btnMenu_open{
         width: 4vw;       
-        background-repeat: no-repeat;
-        
+        background-repeat: no-repeat;        
         background-position: 15px center;
         
     }

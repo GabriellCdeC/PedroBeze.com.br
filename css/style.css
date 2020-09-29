@@ -272,24 +272,36 @@ a, a:active, a:focus{
 
     }
 
-    .footer .div_footer  .redes_sociais{
-        
+    .footer .div_footer  .redes_sociais{        
         display: flex;
         flex-direction: column;
         font-size: 2.5em;
     }
+
     .footer .div_footer  .logo_pedro{
     
         justify-content: center;
         height: auto;
     }
 
-    .footer .div_footer .copyright{
+    .footer .div_footer .logo_manu{
         justify-content: center;
+        text-align: center;
     }
 
     .arrow-top{        
         left:5px;
       
     }
+
+    @media(min-width: 1000px){
+        .footer .div_footer  .redes_sociais{        
+            margin: 40px 0;
+        }
+
+        .footer .div_footer  .redes_sociais{        
+            font-size: 4.5em;
+        }
+    }
+    
 }

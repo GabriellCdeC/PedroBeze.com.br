@@ -251,7 +251,24 @@ a, a:active, a:focus{
     }
 
     .title h1{ 
+        
+    }
+
+    .title{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color:#e09230;
+        border-bottom: solid 5px linear-gradient(to right, #05bb97, #36004d);;
+        font-size: 1.5em;
+    }
+    
+    .title h1{
         font-size: xx-large;
+        width: auto;
+    
     }
 
     .footer .div_footer{

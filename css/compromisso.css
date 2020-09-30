@@ -142,7 +142,7 @@
       }
 
     .texto_motivo{
-        padding: 0;
+        padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -155,6 +155,19 @@
 
     .texto_motivo h4{
         padding: 0;
+        
+    }
+
+    .compromisso .content_compromisso{
+        padding: 0;
+        border: none;
+        border-bottom: solid 2px red;
+        text-align: justify;        
+    }
+
+    .compromisso .content_compromisso p{ 
+        padding: 0;
+        text-align: justify;
         
     }
     

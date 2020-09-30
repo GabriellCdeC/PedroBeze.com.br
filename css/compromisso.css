@@ -7,32 +7,75 @@
     background: rgba(255, 255, 255, 0.25);
 }
 
+.texto_motivo{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto_motivo p{
+    font-size: 1.2em ;
+    text-align: justify;
+}
+.texto_motivo h2{
+    text-align: justify;
+    padding: 0;
+    margin-top: -10px;
+    
+}
+.texto_motivo h4{
+    text-align: justify;
+    padding: 0px 30px;
+    
+}
 
 .compromisso .grid_compromisso {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height:auto;
+    grid-template-areas: "first second";
+    max-height: auto;
     width: auto;
     
 }
 
 .compromisso .content_compromisso{
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    height: auto;
+    max-height: auto;   
+    justify-content: start;
+    align-items: center;
     width: auto;
     border: solid 2px #230052;
     
 }
     
-.compromisso .content_compromisso .img_compromisso{
-    margin-left: 0;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    padding: 0;
-     
-}
+.collapsible {
+    background:linear-gradient(to bottom right, #350a1f,#672f70 );
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1em;
+    transition: 0.7s;
+  }
+  
+.active, .collapsible:hover {
+    background:linear-gradient(to bottom right, rgba(53, 10, 31,0.85),rgba(103, 47, 112,0.85));
+    transform: scale(.95);
+  }
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
 
 .compromisso .content_compromisso .img_compromisso img{    
     height: 10vh;
@@ -41,14 +84,18 @@
 
 .compromisso .content_compromisso .text_compromisso{
     text-align: justify;
+    width: 100%;
     display: flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
+   
 }
 
 .compromisso .content_compromisso .text_compromisso h3,
 .compromisso .content_compromisso .text_compromisso h2{
-    text-align: center;
+    text-align: justify;
+    line-height: 35px;
 }
 
 .compromisso .content_compromisso .text_compromisso h3 .fa-file-pdf-o{

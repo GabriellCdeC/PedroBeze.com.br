@@ -137,6 +137,28 @@
         height: auto;
     }
 
+    .collapsible {      
+        width: 70%;
+      }
+
+    .texto_motivo{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto_motivo p{
+        font-size: 1.2em ;
+        text-align: center;
+    }
+
+    .texto_motivo h4{
+        padding: 0;
+        
+    }
+    
+
     .compromisso .content_compromisso .img_compromisso{
         align-items: center;
         justify-content: center;

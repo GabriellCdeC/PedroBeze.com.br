@@ -162,7 +162,8 @@
         padding: 0;
         border: none;
         border-bottom: solid 2px red;
-        text-align: justify;        
+        text-align: justify;
+        padding: 15px 0;        
     }
 
     .compromisso .content_compromisso p{ 

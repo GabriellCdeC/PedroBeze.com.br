@@ -21,12 +21,13 @@
     text-align: start;
     
 }
+
 .texto_motivo h2{
     text-align: center;
     padding: 30px;
     margin-top: -10px;
-    font-weight: 600;
 }
+
 .texto_motivo h3{
     text-align: center;
     padding: 0px 30px;

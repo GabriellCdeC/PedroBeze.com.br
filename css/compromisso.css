@@ -22,15 +22,15 @@
     
 }
 .texto_motivo h2{
-    text-align: justify;
-    padding: 0;
+    text-align: center;
+    padding: 30px;
     margin-top: -10px;
-    
+    font-size: 0.95em;
 }
-.texto_motivo h4{
-    text-align: justify;
+.texto_motivo h3{
+    text-align: center;
     padding: 0px 30px;
-    
+    font-size: 0.95em;
 }
 
 .compromisso .grid_compromisso {
@@ -43,7 +43,7 @@
 }
 
 .compromisso .content_compromisso{
-    padding: 10px;
+    padding: 2vh 4vw;
     display: flex;
     max-height: auto;   
     justify-content: start;
@@ -54,42 +54,25 @@
     
 }
 
-.button_collapsible{
-    text-align: center;
+
+#wrapper_compromisso{
+    background: #ccc;
+    overflow: hidden;
+    transition: height 200ms;
 }
 
-.button_inside{
-    font-size: 0.9em !important;
-    width: 5% !important ;
-    height: 1vw;
-}
-
-.collapsible {
-    background:linear-gradient(to bottom right, #350a1f,#672f70 );
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 15px;
+#button{
     width: 25%;
     border: none;
-    text-align: center;
-    outline: none;
-    font-size: 1.25em;
-    transition: 0.7s;
-
-  }
-  
-.active, .collapsible:hover {
     background:linear-gradient(to bottom right, rgba(53, 10, 31,0.85),rgba(103, 47, 112,0.85));
-    transform: scale(.95);
-  }
-  
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-  }
+    color: white;
+    font-size: 1.5em;
 
+}
+
+.button_collapsible{
+
+}
 
 .compromisso .content_compromisso .img_compromisso img{    
     height: 7vh;

@@ -35,7 +35,7 @@
 
 .compromisso .grid_compromisso {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "first second";
     max-height: auto;
     width: auto;
@@ -51,6 +51,7 @@
     width: auto;
     border-bottom: solid 2px #038966;
     
+    
 }
 
 .button_collapsible{
@@ -59,6 +60,8 @@
 
 .button_inside{
     font-size: 0.9em !important;
+    width: 5% !important ;
+    height: 1vw;
 }
 
 .collapsible {
@@ -85,12 +88,11 @@
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
   }
 
 
 .compromisso .content_compromisso .img_compromisso img{    
-    height: 10vh;
+    height: 7vh;
     
 }
 
@@ -133,7 +135,7 @@
 }
 
 
-@media(min-width: 1300px){
+@media(min-width: 1600px){
     .texto_motivo{
         font-size: 1.4em ;
     }

@@ -53,11 +53,13 @@
     
     
 }
+
 .button_expand{
     display: flex;
     text-align: center;
     justify-content: center;
 }
+
 .btn-primary{
     width: auto;
     padding: 15px;

@@ -11,12 +11,15 @@
     padding: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0;
+    padding-left: 50px;
+
 }
 
 .texto_motivo p{
     font-size: 1.2em ;
-    text-align: justify;
+    text-align: start;
+    
 }
 .texto_motivo h2{
     text-align: justify;
@@ -46,22 +49,31 @@
     justify-content: start;
     align-items: center;
     width: auto;
-    border: solid 2px #230052;
+    border-bottom: solid 2px #038966;
     
 }
-    
+
+.button_collapsible{
+    text-align: center;
+}
+
+.button_inside{
+    font-size: 0.9em !important;
+}
+
 .collapsible {
     background:linear-gradient(to bottom right, #350a1f,#672f70 );
     color: white;
     cursor: pointer;
     border-radius: 10px;
     padding: 15px;
-    width: 30%;
+    width: 25%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 1em;
+    font-size: 1.25em;
     transition: 0.7s;
+
   }
   
 .active, .collapsible:hover {
@@ -120,6 +132,13 @@
     border-radius: 0 0 0px 25px;
 }
 
+
+@media(min-width: 1300px){
+    .texto_motivo{
+        font-size: 1.4em ;
+    }
+}
+
 /*Mobile Responsive*/
 @media(max-width: 1100px){
     
@@ -138,7 +157,7 @@
     }
 
     .collapsible {      
-        width: 70%;
+        width: 100%;
       }
 
     .texto_motivo{

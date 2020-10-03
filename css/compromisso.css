@@ -109,7 +109,7 @@
 
 @media(min-width: 1600px){
     .texto_motivo{
-        font-size: 1.4em ;
+        font-size: 1.1em ;
     }
 }
 
@@ -149,6 +149,10 @@
     .texto_motivo h4{
         padding: 0;
         
+    }
+
+    .title_mande-propostas hr{
+        width: 80vw;
     }
 
     .compromisso .content_compromisso{

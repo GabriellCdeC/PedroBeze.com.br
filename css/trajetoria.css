@@ -1,48 +1,54 @@
-.trajetoria{
-    background: azure;
-}
-
-
 .content_trajetoria{
     display: flex;
-    flex-direction:row;
-    align-items: center;
+    flex-direction:row; 
     height: auto;
     padding-top: 3vh;
-}
-
-.fa-compass{
-    margin-left: 20px;
-    font-size: 6em;
-    color: #230052;
-}
-
-.fa-handshake-o{
-    margin-left: 20px;
-    color: #230052;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3em;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: solid 10px #230052;
-}
-
-.carousel_trajetoria img{
-    max-width: 50vw;
 }
 
 .text_trajetoria{
     height: auto; 
     font-size: 1.1em;
     font-weight: 700;
-    color: rgb(84, 87, 90);
+    color: rgb(0, 0, 0);
     font-family: Roboto;
     max-width: 50vw;
     text-align: justify;
     padding: 20px 30px;
+}
+
+.text_trajetoria2{
+
+    width: 190%;
+}
+
+.container_fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  
+    width: 100%;
+    height: 20vw;
+    
+    margin-top: 30px;
+}
+
+.fotos_trajetoria{
+    width: 30vw;
+    height: 40vh;
+    background-color: red;
+}
+
+.artigos {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+/*
+
+.carousel_trajetoria img{
+    max-width: 50vw;
 }
 
 .content_trajetoria hr{
@@ -133,6 +139,7 @@
     font-size: 2.25em;
     transition: 0.5s; 
 }
+*/
 
 /*Mobile Responsive*/
 @media(max-width: 1100px){

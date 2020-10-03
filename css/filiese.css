@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover ;
 }
+.title_filiese h1{
+    color:white
+}
 
 .flex_filiese{
     display: flex;

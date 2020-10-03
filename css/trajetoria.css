@@ -17,7 +17,6 @@
 }
 
 .text_trajetoria2{
-
     width: 190%;
 }
 
@@ -182,6 +181,10 @@
         text-align: justify;
         max-width: 85vw;
         
+    }
+
+    .text_trajetoria2{
+        max-width: 85vw;
     }
 
 }

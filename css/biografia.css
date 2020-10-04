@@ -137,6 +137,8 @@
     .artigos .textos .flutuante {
       width: auto;
       margin-right: 25px;
+     
+      height: auto;
     }
   }
   

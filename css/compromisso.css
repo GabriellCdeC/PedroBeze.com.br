@@ -18,6 +18,10 @@
 
 }
 
+.title_compromissos h1{
+ color: white;
+}
+
 
 
 .compromisso .grid_compromisso {
@@ -41,27 +45,6 @@
     
 }
 
-.button_expand{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.btn-primary{
-    width: auto;
-    padding: 15px;
-    font-size: 1.3em;
-    background: linear-gradient(to bottom right, #350a1f,#672f70 );
-    border: none;
-    color: white;
-    transition: 0.7s;
-    
-}
-
-.btn-primary:hover{
-    background:linear-gradient(to bottom right, rgba(53, 10, 31,0.85),rgba(103, 47, 112,0.85));
-    transform: scale(.95);
-}
 
 .compromisso .content_compromisso .img_compromisso img{    
     height: 50%;

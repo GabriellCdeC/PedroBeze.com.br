@@ -1,0 +1,153 @@
+.artigos {
+    padding: 200px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos {
+      padding: 10px 0 25px;
+    }
+  }  
+  
+.title_trajetoria{
+  margin-bottom: 30px;
+}
+
+.title_trajetoria hr{
+  width: 15vw;
+}
+
+  .artigos .aux {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .aux {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
+  
+  .artigos .artigo {
+    margin: 0 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 30%;
+            flex: 0 1 30%;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .artigo {
+      margin: 0 10px;
+      max-width: 43%;
+      margin-bottom: 25px;
+    }
+  }
+  
+
+  .artigos .artigo .titulo {
+    font-family: Roboto, serif;
+    font-weight: 500;
+    font-size: 29.2px;
+    padding: 15px 0;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .artigo .titulo {
+      font-size: 13.44px;
+    }
+  }
+  
+  .artigos .artigo .texto {
+    font-size: 20.42px;
+    line-height: 1.3em;
+    color: #686868;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .artigo .texto {
+      font-size: 9.4px;
+    }
+  }
+  
+  .artigos .mais {
+    font-size: 32.85px;
+    text-transform: uppercase;
+    padding: 29px 80px;
+    border-radius: 30px;
+    display: inline-block;
+    color: white;
+    background: #903d9c;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  
+  .artigos .mais:hover {
+    background: #d691df;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .mais {
+      font-size: 15.13px;
+      padding: 13px 37px;
+      border-radius: 14px;
+    }
+  }
+  
+  .artigos .textos {
+    font-size: 25px;
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .textos {
+      font-size: 11.6px;
+    }
+  }
+  
+  .artigos .textos p {
+    margin-bottom: 1em;
+    line-height: 1.3;
+  }
+  
+  .artigos .textos .flutuante {
+    max-width: 533px;
+    height: auto;
+    float: right;
+
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .textos .flutuante {
+      max-width: 50%;
+      height: 233px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .artigos .textos .flutuante {
+      max-width: 45%;
+    }
+  }
+  
+  .artigos .textos .flutuante img {
+    width: 130%;
+   
+  }
+  
+  @media (max-width: 870px) {
+    .artigos .textos .flutuante img {
+      margin-top: -35px;
+      margin-top: -15px;
+      max-width: 230px;
+      max-width: 210px;
+    }
+  }

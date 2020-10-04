@@ -192,12 +192,10 @@
         background-position: center center;
     }
 
-    .text_motivo,
-    .text_motivo2{
-       
+    .text_motivo{       
         text-align: center;
         font-size: 1.2em;
-        padding: 0 30px;
+        padding: 30px;
         font-weight: 700;
     }     
 

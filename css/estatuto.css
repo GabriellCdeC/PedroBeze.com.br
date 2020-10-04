@@ -9,11 +9,28 @@
     padding: 40px;
 }
 
+.estatuto .p{
+    font-size: 1.6em;
+    padding: 40px;
+}
+
 .estatuto h4{
     font-size: 1em;
 }
 
+
+.estatuto h2{
+    font-size: 1em;
+    text-align: center;
+}
+
 @media(max-width: 1100px){
+
+    .estatuto{
+        background-image: url(../img/BG_filiacao_2019.jpg);
+        background-repeat: repeat-x;
+
+    }
     .texto_motivo{
        
         

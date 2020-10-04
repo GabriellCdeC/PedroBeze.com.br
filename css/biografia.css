@@ -38,7 +38,7 @@
   }
   
   .artigos .artigo {
-    margin: 0 15px;
+    margin: 15px;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 30%;
             flex: 0 1 30%;
@@ -47,7 +47,7 @@
   
   @media (max-width: 870px) {
     .artigos .artigo {
-      margin: 0 10px;
+      margin: 10px;
       max-width: 43%;
       margin-bottom: 25px;
     }
@@ -75,7 +75,7 @@
   
   @media (max-width: 870px) {
     .artigos .artigo .texto {
-      font-size: 9.4px;
+      font-size: 1em;
     }
   }
   
@@ -109,7 +109,8 @@
   
   @media (max-width: 870px) {
     .artigos .textos {
-      font-size: 11.6px;
+      font-size: 1.3em;
+      padding: 30px;
     }
   }
   
@@ -134,7 +135,8 @@
   
   @media (max-width: 1200px) {
     .artigos .textos .flutuante {
-      max-width: 45%;
+      width: auto;
+      margin-right: 25px;
     }
   }
   
@@ -145,9 +147,8 @@
   
   @media (max-width: 870px) {
     .artigos .textos .flutuante img {
-      margin-top: -35px;
-      margin-top: -15px;
-      max-width: 230px;
-      max-width: 210px;
+      width: 150%;
+   
+      
     }
   }

@@ -1,36 +1,49 @@
-.contribua .grid_contribua {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-    width: auto;
+.contribua{
+    background-image: url(../img/fotofundo.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height:auto;
+  
     
+}
+
+.contribua .grid_contribua {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
  
 }
-.text_motivo{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0 0 0 25px;
-    padding: 30px;
-    color:black;
-    
-}
 
 .title_mande-propostas hr{
     width: 23vw;
 }
 
+.text_motivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800%;
+    width: 35vw;
+    color: rgb(103, 47, 112);
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+
+
 .buttonContribua{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+
 
 }
 
@@ -144,9 +157,13 @@
     
 }
 
-.title_contribua hr{
-    width: 11vw;
+.title_contribua h1{
+    color: #672f70;
+   
 }
+
+
+
 
 
 /*Mobile Responsive*/

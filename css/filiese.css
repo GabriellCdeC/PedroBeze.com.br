@@ -10,7 +10,7 @@
 .flex_filiese{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
 }
@@ -53,6 +53,20 @@
 }
 
 .img_filiese img{
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 0 0 10px #000000;
+}
+
+.img_manu{    
+    background: white;
+    margin-bottom: 20px;
+
+    width: 40vw;
+    border-radius: 25px;
+}
+
+.img_manu img{
     border-radius: 25px;
     width: 100%;
     box-shadow: 0 0 10px #000000;

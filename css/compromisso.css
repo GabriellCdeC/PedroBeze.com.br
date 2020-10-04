@@ -4,7 +4,9 @@
     flex-direction:column ;
     margin: 1vh 0 0 0 ;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.25);
+    background-image: url(../img/BG_filiacao_2019.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 .texto_motivo{
@@ -16,23 +18,7 @@
 
 }
 
-.texto_motivo p{
-    font-size: 1.2em ;
-    text-align: start;
-    
-}
 
-.texto_motivo h2{
-    text-align: center;
-    padding: 30px;
-    margin-top: -10px;
-}
-
-.texto_motivo h3{
-    text-align: center;
-    padding: 0px 30px;
-    font-size: 0.95em;
-}
 
 .compromisso .grid_compromisso {
     display: grid;
@@ -47,7 +33,7 @@
     padding: 2vh 4vw;
     display: flex;
     max-height: auto;   
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     width: auto;
     border-bottom: solid 2px #038966;
@@ -78,7 +64,7 @@
 }
 
 .compromisso .content_compromisso .img_compromisso img{    
-    height: 7vh;
+    height: 50%;
     
 }
 

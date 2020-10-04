@@ -22,6 +22,7 @@
 .estatuto h2{
     font-size: 1em;
     text-align: center;
+    font-weight: bold;
 }
 
 @media(max-width: 1100px){
@@ -31,11 +32,7 @@
         background-repeat: repeat-x;
 
     }
-    .texto_motivo{
-       
-        
-    }
-    
+  
     .texto_motivo p{
         font-size: 0.9em ;
         text-align: center;

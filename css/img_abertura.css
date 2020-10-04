@@ -1,6 +1,6 @@
 .img_abertura{
     margin: 0;
-    background-image: url(../img/fotofundo.png);
+    background-image: url(../img/fotofundo2.png);
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100%;    
@@ -12,7 +12,7 @@
 
 @media(max-width: 1100px){
     .img_abertura{
-    background-image: url(../img/fotofundo.png);
+    background-image: url(../img/fotofundo2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;

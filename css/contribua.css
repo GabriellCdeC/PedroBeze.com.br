@@ -2,14 +2,14 @@
     background-image: url(../img/fotofundo.png);
     background-repeat: no-repeat;
     background-size: cover ;
-    height:auto;
+    height: 90vh;
   
     
 }
 
 .contribua .grid_contribua {
-    display: flex;    
-    flex-direction: column;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -24,27 +24,27 @@
     width: 23vw;
 }
 
-.text_motivo{
+.text_motivo,
+.text_motivo2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 800%;
-    width: 35vw;
-    color: rgb(103, 47, 112);
+    flex-direction: column;  
+    height: 70vh;
     justify-content: center;
+    color: rgb(103, 47, 112);
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 2.3em;
 }
 
 
 
 .buttonContribua{
+    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: flex-end;
     align-items: center;
-    padding: 20px;
-
-
+    margin-bottom: 3vh;
+    
 }
 
 .buttonContribua .buttonPart{
@@ -53,7 +53,7 @@
     align-items: center;
     box-shadow: 0 0 10px #000000; 
     background:linear-gradient(to bottom right, rgba(53, 10, 31,0.95),rgba(103, 47, 112,0.95));
-    height: auto;
+    height: 3vh;
     width: auto;
     padding: 10px;
     transition: 0.7s;

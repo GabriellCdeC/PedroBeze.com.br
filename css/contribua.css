@@ -1,7 +1,4 @@
 .contribua{
-    background-image: url(../img/fotofundo.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
     height:auto;
     
   
@@ -187,10 +184,7 @@
     .contribua .grid_contribua {
         display: flex;
         flex-direction: column;
-        background-image: url(../img/fotofundo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        
     }
 
     .text_motivo{       

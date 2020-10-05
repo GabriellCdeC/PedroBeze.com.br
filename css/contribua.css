@@ -213,7 +213,12 @@
     }
     
     .buttonSubmit{
-        width: 80%
+        width: 80%;
+    
+    }
+
+    .buttonPart p {
+        margin-bottom: 0;
     }
 
     .text_motivo{

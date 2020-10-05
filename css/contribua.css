@@ -1,16 +1,23 @@
 .contribua{
-    height:auto;
-    
+    background-image: url(../img/Repeticao-de-grade-1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height:auto;  
   
     
 }
 
 .contribua .grid_contribua {
     display: grid;    
-    grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
+}
+
+.contribua .grid_contribua h2{
+    opacity: 0;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -23,15 +30,15 @@
 
 }
 
-.text_motivo,
-.text_motivo2{
+.text_motivo{
     display: flex;
     flex-direction: column;  
     height: auto;
     justify-content: center;
-    color: rgb(103, 47, 112);
+   
+    color:white;
     text-align: justify;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 0 30px;
     font-weight: 700;
 }
@@ -44,7 +51,7 @@
     flex-direction:column;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 3vh;
+    margin: 3vh 0;
     
 }
 
@@ -67,7 +74,7 @@
     font-size: 1.6em;
 }
 
-.buttonContribua p{
+.buttonContribua h3{
     margin: 0;
 }
 
@@ -159,7 +166,7 @@
 }
 
 .title_contribua h1{
-    color: #672f70;
+    color: white;
    
 }
 

@@ -42,4 +42,16 @@
         height: 100%;
     }
 
+    @media only screen 
+    and (min-width: 1020px) 
+    and (max-height: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        .content_abertura {
+            width: 55vw;
+            height: 35vw;
+            margin-left: 0;
+        }
+
+    }
+
 }

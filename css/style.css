@@ -59,7 +59,7 @@ a, a:active, a:focus{
     display: none;
     right: 14px;
     bottom: 14px;
-    z-index: 999;
+    z-index: 100;
     height: 45px;
     width: 45px;
     text-align: center;
@@ -99,8 +99,6 @@ a, a:active, a:focus{
     width: 20vw;
     margin: 0;
 }
-
-
 .footer .div_footer{
     box-shadow: 0 0 30px black ;
     display: grid;
@@ -108,6 +106,8 @@ a, a:active, a:focus{
     text-align: center;
     color: white;
     background:#e09230;
+    
+    
 }
 
 .footer .div_footer .logo_psol{    
@@ -158,7 +158,8 @@ a, a:active, a:focus{
 
 
 .footer .div_footer .copyright{
-   
+    background: #e09230;
+    z-index: 200;
     display: flex;
     justify-content: flex-end;
     align-items: center;

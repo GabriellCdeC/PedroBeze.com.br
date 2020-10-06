@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     background-image: url(fundopropostas.png);
     background-repeat: no-repeat;
@@ -29,10 +31,29 @@ body{
     border: none
 }
 
-#conteudo .header_propostas img{
-    height: 7vh;
+#conteudo .header_img img{
     padding-right: 30px ;
-    
+    transition: 0.5s;
 }
 
+#conteudo .header_img img:hover{
+    transform: scale(0.9);
+}
+
+.content-propostas{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.text-propostas{
+    font-size: 1.5em;
+    padding: 50px;
+    color: purple;
+    
+}
 

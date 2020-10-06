@@ -97,6 +97,11 @@ body{
         display: block;
         transform: scale(.8);
     } 
+    
+    
+    #conteudo .header_img{
+        transform: scale(0.6);
+    }
 
     #conteudo .header_propostas img{
         transform: scale(.8);
@@ -123,6 +128,14 @@ body{
 
     .text-propostas p{
         text-align: center;
+     }
+
+     @media (max-width: 680px){
+        #conteudo .header_img{
+         
+            transform: scale(0.7);
+            float: left;
+        }
      }
 }
 

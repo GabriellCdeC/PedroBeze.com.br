@@ -2,16 +2,28 @@
 body{
     background-image: url(fundopropostas.png);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
+    
 }
 
 #conteudo .header_propostas {
     justify-content: space-between;
-    
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none ;
 }
 
 #conteudo .header_propostas .text_header{   
-    padding: r;
+    padding-left: 30px;
+    font-size: 3em;
+    
+}
+
+#conteudo .header_propostas .text_header a{
+    color: white;
+}
+
+#conteudo .header_propostas .text_header a:hover{
+    color: #4C207A;
 }
 
 #conteudo .header_propostas img{

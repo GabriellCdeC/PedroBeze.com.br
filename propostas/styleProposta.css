@@ -106,6 +106,7 @@ body{
     #conteudo .header_propostas .text_header{
         display: block;
         padding: 0;
+        transform: scale(0.7);
     }
 
     #conteudo .header_propostas .header_img {

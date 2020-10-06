@@ -13,11 +13,13 @@ body{
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none ;
     position: relative;
+    margin-top: 40px;
 }
 
 #conteudo .header_propostas .text_header{   
     padding-left: 30px;
     font-size: 3em;
+   
     
 }
 
@@ -42,7 +44,6 @@ body{
 }
 
 .content-propostas{
-    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

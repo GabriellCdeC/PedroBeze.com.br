@@ -8,9 +8,7 @@
 
 /*remove dotted line around the links*/
 a, a:active, a:focus{
-
     outline: none;  
-
 }
 
 #conteudo .header {
@@ -175,14 +173,6 @@ a, a:active, a:focus{
   display: none;
 }
 
-.img-test-cab{
-    width: 100%;
-    background-color: red;
-}
-
-.img-test-cab img{
-    width: 100%;
-}
 
 /*Mobile Responsive*/
 @media(max-width: 1100px){

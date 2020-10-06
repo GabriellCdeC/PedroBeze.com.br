@@ -32,13 +32,13 @@
 }
 
 .compromisso .content_compromisso .img_compromisso img{   
+    width: 90%;
     padding: 10px;
-    
+    transition: 0.5s;
 }
 
-
-.compromisso .content_compromisso .img_compromisso img{   
-    width: 90%;
+.compromisso .content_compromisso .img_compromisso img:hover{   
+    transform: scale(0.9);
     
 }
 

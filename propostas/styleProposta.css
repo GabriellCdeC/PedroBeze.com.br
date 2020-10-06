@@ -23,7 +23,10 @@ body{
 }
 
 #conteudo .header_propostas .text_header a:hover{
-    color: #4C207A;
+    color: #4b207a;
+    background-color: #4b207a00; 
+    border-radius:0;
+    border: none
 }
 
 #conteudo .header_propostas img{

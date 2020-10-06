@@ -69,13 +69,15 @@ body{
 }
 
 .part1,
-.part2{
+.part2,
+.part3{
     padding: 50px;
     width: 50%;
 }
 
 .part1,
-.part2{
+.part2, 
+.part3{
     padding: 50px;
 }
 
@@ -95,7 +97,8 @@ body{
     }
 
     .part1,
-    .part2{
+    .part2,
+    .part3{
         background: #fcce21;
     }
 

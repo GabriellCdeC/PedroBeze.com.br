@@ -1,5 +1,23 @@
+
 body{
     background-image: url(fundopropostas.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
+
+#conteudo .header_propostas {
+    justify-content: space-between;
+    
+}
+
+#conteudo .header_propostas .text_header{   
+    padding: r;
+}
+
+#conteudo .header_propostas img{
+    height: 7vh;
+    padding-right: 30px ;
+    
+}
+
+

@@ -80,5 +80,10 @@ body{
     font-size: 1.3em;   
 }
 
+.part1,
+.part2{
+    background: #FECE00;
+}
+
 }
 

@@ -56,12 +56,14 @@
     border-radius: 25px;
     width: 100%;
     box-shadow: 0 0 10px #000000;
+    height: 30vh
 }
 
 .img_manu{    
     background: white;
     margin-left: 20px;
     border-radius: 25px;
+    height: 30vh
 }
 
 .img_manu img{

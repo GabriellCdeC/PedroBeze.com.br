@@ -75,7 +75,7 @@ a, a:active, a:focus{
 
 .arrow-top:hover,
 .arrow-top a:hover{   
-    background: #e09230;
+    background: #ECE00;
     color: white;
 }
 
@@ -228,7 +228,7 @@ a, a:active, a:focus{
     }
 
     .btnMenu_close{
-        background-color: #e09230;
+        background-color: #FECE00;
         background-repeat: no-repeat;
         background-position: 15px center;
         font-size: 2em;  
@@ -239,7 +239,7 @@ a, a:active, a:focus{
     .menu-item{
         padding: 20px 15px;
         border-bottom: 1px solid #000;
-        background-color: #e09230;
+        background-color: #FECE00;
     }
 
     .menu-item-action{

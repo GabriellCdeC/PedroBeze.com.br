@@ -1,7 +1,5 @@
 .estatuto{
-    background-image: url(../img/BG_filiacao_2019.jpg);
-    background-repeat: no-repeat;
-    background-size: cover ;
+    background: #FECE00;
     color: blueviolet;
     font-weight: 700;
 }
@@ -37,8 +35,7 @@
 @media(max-width: 1100px){
 
     .estatuto{
-        background-image: url(../img/BG_filiacao_2019.jpg);
-        background-repeat: repeat-x;
+        background: #FECE00;
 
     }
   

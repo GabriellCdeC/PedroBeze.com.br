@@ -2,11 +2,14 @@
     background-image: url(../img/BG_filiacao_2019.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
+    color: blueviolet;
+    font-weight: 700;
 }
 
 .estatuto .texto_motivo{
     font-size: 1.6em;
     padding: 40px;
+    
 }
 
 .estatuto .p{

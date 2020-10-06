@@ -58,9 +58,20 @@ body{
     color: purple    
 }
 
+.title-propostas{
+    text-transform: uppercase;
+    color: purple;
+}
+
 .text-propostas p{
    padding: 10px;
    text-align: justify;
+}
+
+.part1,
+.part2{
+    padding: 50px;
+    width: 50%;
 }
 
 .part1,

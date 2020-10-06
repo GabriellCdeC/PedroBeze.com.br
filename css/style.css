@@ -22,7 +22,7 @@ a, a:active, a:focus{
     flex-direction: row;
     width: 100%;
     height: auto;
-    background-color: #e09230;
+    background-color: #FECE00;
     box-shadow: 0 0 30px black ;
     justify-content: space-evenly;
     align-items: center;
@@ -41,7 +41,7 @@ a, a:active, a:focus{
 #conteudo .header .text_header a:hover{
     background-color: white; 
     border-radius: 15px; 
-    border: solid 1px #4C207A;
+    border: solid 1px #764C89;
     
 }
 
@@ -173,6 +173,15 @@ a, a:active, a:focus{
 
 .wrap-menu{
   display: none;
+}
+
+.img-test-cab{
+    width: 100%;
+    background-color: red;
+}
+
+.img-test-cab img{
+    width: 100%;
 }
 
 /*Mobile Responsive*/

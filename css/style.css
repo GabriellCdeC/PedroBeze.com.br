@@ -46,7 +46,7 @@ a, a:active, a:focus{
 }
 
 #conteudo .header .header_img img{
-    height: 15vh;
+    height: 18vh;
     transition: 0.7s;
 }
 
@@ -105,7 +105,7 @@ a, a:active, a:focus{
     grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     color: white;
-    background:#e09230;
+    background:#FECE00;
     
     
 }
@@ -158,7 +158,7 @@ a, a:active, a:focus{
 
 
 .footer .div_footer .copyright{
-    background: #e09230;
+    background: #FECE00;
     z-index: 200;
     display: flex;
     justify-content: flex-end;

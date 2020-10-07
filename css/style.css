@@ -88,7 +88,7 @@ a, a:active, a:focus{
 }
 
 .title h1{
-   qWfont-weight: bolder;
+   font-weight: bolder;
    color: #FECE00;
 }
 

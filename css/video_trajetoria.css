@@ -1,0 +1,26 @@
+.video-trajetoria .content-video-trajetoria-desktop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.video-trajetoria .content-video-trajetoria-mobile{
+    display: none;
+}
+
+@media(max-width: 1100px){
+
+    .video-trajetoria .content-video-trajetoria-desktop{
+        display: none;
+    }
+    
+    .video-trajetoria .content-video-trajetoria-mobile{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin: 0 20px 20px 20px;
+    }
+    
+}
